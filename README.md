@@ -1,4 +1,4 @@
-WORKSHOP_TITLE
+Getting Started with Shiny for R
 ================
 
 ### posit::conf 2023
