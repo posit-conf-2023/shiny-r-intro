@@ -3,25 +3,11 @@ Getting Started with Shiny for R
 
 ### posit::conf 2023
 
-by INSTRUCTOR_NAME
+by Colin Rundel
 
 -----
 
-INSTRUCTIONS FOR INSTRUCTORS: Please insert information about your
-workshop below. Then, add workshop content in the materials folder and
-link to each session’s materials from the schedule below. You are
-welcomed to add more rows to the schedule. We just ask that you take
-breaks at the specified times. Once you are done adding information, you
-can remove these instructions from the README.
-
-Alternatively, you can completely redo the organization of this repo 
-as a Quarto website or some other format you prefer to host your workshop
-materials. The only requirement is that your workshop materials are hosted 
-here.
-
------
-
-:spiral_calendar: September 17 and 18, 2023  
+:spiral_calendar: September 17, 2023  
 :alarm_clock:     09:00 - 17:00  
 :hotel:           ROOM TBD  
 :writing_hand:    [pos.it/conf](http://pos.it/conf)
@@ -30,48 +16,41 @@ here.
 
 ## Overview
 
-ADD ABSTRACT
+Shiny is an R package that makes it easy to build interactive web apps straight from R. This workshop will start at the beginning: designing and creating user interfaces, learning and mastering the reactive model that connects your R code to the interface, and deploying apps publicly and privately. We will wrap up with some intermediate-level tools: debugging and modularizing your apps and implementing dynamic user interfaces. In the end, you’ll be a confident Shiny user, able to design interactive apps to achieve your purpose and produce a polished and professional implementation.
 
 **This workshop is for you if you...*
 
-ADD THREE POINTS
+* are comfortable with the basics of R, such as writing functions, indexing vectors and lists, debugging simple errors, and working with data structures like data frames,
+
+* are interested in creating interactive web applications, and
+
+* have no or minimal experience with Shiny for R.
+
+If you have a bit of experience, you’ll see things in a new way. If you don’t, we’ll get you started on the right footing.
 
 ## Prework
 
-ADD INFORMATION YOU WANT LEARNERS TO HAVE / STEPS THEY WANT THEM TO
-COMPLETE PRIOR TO THE WORKSHOP. THIS COULD BE A LINK TO A THREAD ON
-RSTUDIO COMMUNITY, PACKAGE INSTALL INSTRUCTIONS, HOW TO GET AN
-RSTUDIO.CLOUD ACCOUNT, ETC.
+There is nothing you will need to do before attending this workshop. We will be making use of Posit Cloud for all activities and exercises so you will just need to bring a laptop that is able to access the conference WiFi.
 
 ## Schedule
 
 ### Day 1
 
-| Time          | Activity         |
-| :------------ | :--------------- |
-| 09:00 - 10:30 | Session 1        |
-| 10:30 - 11:00 | *Coffee break*   |
-| 11:00 - 12:30 | Session 2        |
-| 12:30 - 13:30 | *Lunch break*    |
-| 13:30 - 15:00 | Session 3        |
-| 15:00 - 15:30 | *Coffee break*   |
-| 15:30 - 17:00 | Session 4        |
+| Time          | Activity              |
+| :------------ | :-------------------- |
+| 09:00 - 09:30 | Welcome               |
+| 09:30 - 10:30 | Intro to Shiny        |
+| 10:30 - 11:00 | *Coffee break*        |
+| 11:00 - 12:30 | Basic Reactivity      |
+| 12:30 - 13:30 | *Lunch break*         |
+| 13:30 - 15:00 | Observers & reactives |
+| 15:00 - 15:30 | *Coffee break*        |
+| 15:30 - 17:00 | Themeing & Publishing |
 
-### Day 2
-
-| Time          | Activity         |
-| :------------ | :--------------- |
-| 09:00 - 10:30 | Session 1        |
-| 10:30 - 11:00 | *Coffee break*   |
-| 11:00 - 12:30 | Session 2        |
-| 12:30 - 13:30 | *Lunch break*    |
-| 13:30 - 15:00 | Session 3        |
-| 15:00 - 15:30 | *Coffee break*   |
-| 15:30 - 17:00 | Session 4        |
 
 ## Instructor
 
-ADD INSTRUCTOR BIO
+[Colin Rundel](https://rundel.github.io/) is Associate Professor of the Practice at Duke University in the department of Statistical Science where he has been teaching since 2012. His work focuses on teaching statistical computing to both undergraduate and graduate students in both R and Python. He has been teaching and using Shiny since 2015.
 
 -----
 
