@@ -1,6 +1,3 @@
-Getting Started with Shiny for R
-================
-
 ### posit::conf 2023
 
 by Colin Rundel
