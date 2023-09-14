@@ -1,0 +1,185 @@
+---
+title: "Getting Started with Shiny<br/>Theming & Publishing"
+author: "Colin Rundel"
+format: 
+  revealjs:
+    logo: images/shiny.png
+    footer: "posit::conf 2023 - Getting Started with Shiny"
+    slide-number: true
+    highlight-style: a11y
+    theme: [default, custom.scss]
+    self-contained: true
+execute:
+  echo: true
+title-slide-attributes:
+    data-background-image: "images/Hyatt-Regency-Chicago.webp"
+    data-background-size: cover
+    data-background-opacity: "0.5"
+---
+
+# Theming
+
+## Shiny & bootstrap
+
+The interface provided by Shiny is based on the html elements, styling, and javascript provided by the [Bootstrap library](https://getbootstrap.com/).
+
+As we've seen so far, knowing the specifics of Bootstrap are not needed for working with Shiny - but understanding some of its conventions goes a long way to helping you customize the elements of your app (via custom CSS and other components).
+
+This is not the only place that Bootstrap shows up in the R ecosystem - e.g. both RMarkdown and Quarto html documents use Bootstrap for styling as well.
+
+
+## Bootswatch
+
+Due to the ubiquity of Bootstrap a large amount of community effort has gone into developing custom themes - a large free collection of these are available at [bootswatch.com/](https://bootswatch.com/).
+
+<iframe data-src="https://bootswatch.com/" width="100%" height="450px" style="border:1px solid;border-radius: 5px;"  data-external="1">
+</iframe>
+
+
+## bslib
+
+> The bslib R package provides a modern UI toolkit for Shiny and R Markdown based on Bootstrap. It facilitates:
+>
+> * Creation of delightful and customizable Shiny dashboards.
+>    
+>    * The underlying UI components (e.g., cards, value boxes, sidebars, etc) are also designed to work in other contexts (e.g., in R Markdown).
+> * Custom theming of Shiny apps and R Markdown documents.
+> 
+>    * Apps can even be themed interactively in real-time.
+> * Use of modern versions of Bootstrap and Bootswatch
+>
+>    * Shiny and R Markdown currently default to Bootstrap 3 and may continue to do so to maintain backwards compatibility.
+
+## `bs_theme()`
+
+Provides a high level interface to adjusting the theme for an entire Shiny app,
+
+* Change bootstrap version via `version` argument
+
+* Pick a bootswatch theme via `bootswatch` argument
+
+* Adjust basic color palette (`bg`, `fg`, `primary`, `secondary`, etc.)
+
+* Adjust fonts (`base_font`, `code_font`, `heading_font`, `font_scale`)
+
+* and more
+
+The object returned by `bs_theme()` can be passed to the `theme` argument of `fluidPage()` and similar page UI elements.
+
+
+## thematic
+
+> Simplified theming of ggplot2, lattice, and {base} R graphics. In addition to providing a centralized approach to styling R graphics, thematic also enables automatic styling of R plots in Shiny, R Markdown, and RStudio.
+
+In the case of our flexdashboard (or other shiny app), all we need to do is to include a call to `thematic_shiny()` before the app is loaded. 
+
+- Using the value `"auto"` will attempt to resolve the `bg`, `fg`, `accent`, or `font` values at plot time.
+
+
+
+## Demo 09 - Dynamic theming
+
+::: {.code-file .sourceCode .cell-code}
+`r fontawesome::fa("file")` `demos/demo09.R`
+:::
+```{r}
+#| eval: false
+#| code-line-numbers: "|13|45"
+#| file: "../demos/demo09.R"
+```
+
+
+
+## Your turn - Exercise 6
+
+Using code provided in `exercises/ex06.R` (which is the same as Demo 9's) experiment with bslib's themer tool to explore different themes .
+
+* Try changing the main theme as well as the foreground and background colors
+
+* Try changing one or more of the accent colors
+
+* Try the fonts being used (e.g. Prompt, roboto, Oswald, Fira Sans) and changing the base font size
+
+```{r}
+#| echo: false
+countdown::countdown(10)
+```
+
+
+
+# Deploying Shiny apps
+
+## Your turn - Exercise 8
+
+Go to [shinyapps.io](https://www.shinyapps.io/) and sign up for an account.
+
+* You can create a new account via email & a password
+
+* or via o-auth through Google or GitHub.
+
+If asked to pick a plan, use the Free option (more than sufficient for our needs here)
+
+
+```{r}
+#| echo: false
+countdown::countdown(5)
+```
+
+
+## Organizing your app
+
+For deployment generally apps will be organized as a single folder that contains all the necessary components (R script, data files, other static content).
+
+* Pay attention to the nature of any paths used in your code 
+
+  * Absolute paths are almost certainly going to break
+  
+  * Relative paths should be to the root of the app folder
+  
+* Static files (e.g. css, js, etc.) generally are placed in the `www/` subfolder
+
+* Your script *does not* need to be named `app.R` or `ui.R`/`server.R`
+
+* Check / think about package dependencies
+
+
+## Your turn - Exercise 8
+
+Now we will publish one of the demo apps to shinyapps.io (you will need to have completed Exercise 8)
+
+1. Package up either `demo05.R` as an app in `exercises/ex08app` (you will need to create this folder)
+    - Make sure to copy the data (`weather.csv`) into this folder
+    - and adjust any paths if necessary
+  
+2. Open the script file in `exercises/ex9app` and click the Publish Document button in the upper right of the pane (look for the ![](images/publish_button.png) icon)
+
+    - You should be presented with the "Publish to server", click on the Add New Account link in the upper right
+    
+    - Select shinyapps.io and follow the instructions to connect
+    
+    - When retrieving your token for shinyapps.ip you may need to click `Dashboard` first and then your name (both in the upper right)
+
+## Your turn - Exercise 8 (cont.)
+
+3. Once authenticated you should be back at the "Publish to server" dialog, use this to select which files to include (select your script and data file)
+
+4. Your Shiny app should now be deploying and should open on shinyapps.io once live - check to see if everything works, if not go back and check Steps 1 and 3.
+
+
+```{r}
+#| echo: false
+countdown::countdown(10)
+```
+
+
+## Other publishing options
+
+- For other R users - you can share your script(s) and data directly 
+
+  - or better yet, bundle them into an R package
+  
+- Run a local instance of [shiny server](https://posit.co/products/open-source/shinyserver/)
+
+- Use shinyapps.io (public) or posit.cloud (within team)
+
+- License Posit Connect

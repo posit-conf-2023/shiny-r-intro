@@ -1,0 +1,176 @@
+---
+title: "Getting Started with Shiny<br/>Wrap-up & Next steps"
+author: "Colin Rundel"
+format: 
+  revealjs:
+    logo: images/shiny.png
+    footer: "posit::conf 2023 - Getting Started with Shiny"
+    slide-number: true
+    highlight-style: a11y
+    theme: [default, custom.scss]
+    self-contained: true
+execute:
+  echo: true
+title-slide-attributes:
+    data-background-image: "images/Hyatt-Regency-Chicago.webp"
+    data-background-size: cover
+    data-background-opacity: "0.5"
+---
+
+# What next / what else
+
+## Shiny user showcase
+
+::: {.large style="text-align: center"}
+[shiny.posit.co/r/gallery/](https://shiny.posit.co/r/gallery/)
+:::
+
+> The Shiny User Showcase is comprised of contributions from the Shiny app developer community. The apps are categorized into application areas and presented with a brief description, tags, and for many, the source code. Note that many of these apps are winners and honorable mentions of our annual Shiny contest!
+
+Shiny contest winners blog posts:
+
+* [1st contest winners](https://www.rstudio.com/blog/first-shiny-contest-winners/)
+
+* [2nd contest winners](https://www.rstudio.com/blog/winners-of-the-2nd-shiny-contest/)
+
+* [3rd contest winners](https://www.rstudio.com/blog/winners-of-the-3rd-annual-shiny-contest/)
+
+
+
+
+
+
+## shinyjs
+
+::: {.large style="text-align: center"}
+[deanattali.com/shinyjs/](https://deanattali.com/shinyjs/)
+:::
+
+> Easily improve the user experience of your Shiny apps in seconds
+
+* Hide (or show) an element 
+
+* Disable (or enable) an input 
+
+* Reset an input back to its original value 
+
+* Delay code execution
+
+* Easily call your own JavaScript functions from R 
+
+
+## DT
+
+::: {.large style="text-align: center"}
+[rstudio.github.io/DT/](https://rstudio.github.io/DT/)
+:::
+
+> The R package DT provides an R interface to the JavaScript library DataTables. R data objects (matrices or data frames) can be displayed as tables on HTML pages, and DataTables provides filtering, pagination, sorting, and many other features in the tables.
+
+* Interactive tables
+
+* Tables as inputs
+
+* Editable tables
+
+
+## reactable
+
+::: {.large style="text-align: center"}
+[glin.github.io/reactable/](https://glin.github.io/reactable/)
+:::
+
+> Interactive data tables for R, based on the [React Table](https://github.com/tanstack/table/tree/v7) library and made with [reactR](https://github.com/react-R/reactR).
+
+* Sorting, filtering, pagination
+* Grouping and aggregation
+* Built-in column formatting
+* Custom rendering via R or JavaScript
+* Expandable rows and nested tables
+* Conditional styling
+
+
+## htmlwidgets
+
+::: {.large style="text-align: center"}
+[htmlwidgets.org](https://www.htmlwidgets.org/)
+:::
+
+> The htmlwidgets package provides a framework for easily creating R bindings to JavaScript libraries. Widgets created using the framework can be:
+>
+> * Used at the R console for data analysis just like conventional R plots (via RStudio Viewer).
+> * Seamlessly embedded within R Markdown documents and Shiny web applications.
+> * Saved as standalone web pages for ad-hoc sharing via email, Dropbox, etc.
+
+
+## pool
+
+::: {.large style="text-align: center"}
+[rstudio.github.io/pool/](https://rstudio.github.io/pool/)
+:::
+
+> The goal of the pool package is to abstract away the logic of connection management and the performance cost of fetching a new connection from a remote database. These concerns are especially prominent in interactive contexts, like Shiny apps (which connect to a remote database) or even at the R console.
+
+See articles available at [shiny.rstudio.com/articles/#data](https://shiny.rstudio.com/articles/#data)
+
+
+## Awesome Shiny Extensions
+
+::: {.large style="text-align: center"}
+[github.com/nanxstats/awesome-shiny-extensions](https://github.com/nanxstats/awesome-shiny-extensions)
+:::
+
+> A curated list of awesome R packages that offer extended UI or server components for the R web framework Shiny.
+
+![](https://raw.githubusercontent.com/nanxstats/awesome-shiny-extensions/master/logo.png){fig-align="center" width="20%"}
+
+
+## Shiny Developer Series
+
+::: {.large style="text-align: center"}
+[shinydevseries.com/](https://shinydevseries.com/)
+:::
+
+> The goals of the Shiny Developer Series are to showcase the innovative applications and packages in the ever-growing Shiny ecosystem, as well as the brilliant developers behind them! The series is composed of these components:
+>
+> * Interviews with guests ...
+>
+> * Video tutorials and live streams ...
+
+
+
+# Q&A 
+
+
+## Workshop Survey
+
+<br/><br/><br/><br/>
+
+::: {.larger style="text-align: center;"}
+<http://pos.it/conf-workshop-survey>
+:::
+
+
+## Thank you!
+
+<table class="details">
+  <tr>
+    <td style="text-align:center">&nbsp;`r fontawesome::fa("link")`</td>
+    <td>FIXME</td>
+  </tr>
+  <tr>
+    <td style="text-align:center">&nbsp;`r fontawesome::fa("file")`</td>
+    <td>[posit-conf-2023/shiny-r-intro/](https://github.com/posit-conf-2023/shiny-r-intro)</td>
+  </tr>
+  <tr>
+    <td style="text-align:center">&nbsp;`r fontawesome::fa("envelope")`</td>
+    <td>
+    <a href="mailto:rundel@gmail.com">rundel@gmail.com</a><br/>
+    <a href="mailto:colin.rundel@duke.edu">colin.rundel@duke.edu</a>
+    </td>
+  </tr>
+  <tr>
+    <td style="text-align:center">&nbsp;`r fontawesome::fa("github")`</td>
+    <td><a href="https://github.com/rundel">rundel</a></td>
+  </tr>
+</table>

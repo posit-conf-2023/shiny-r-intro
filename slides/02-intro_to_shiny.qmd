@@ -1,0 +1,205 @@
+---
+title: "Getting Started with Shiny<br/>Intro to Shiny"
+author: "Colin Rundel"
+format: 
+  revealjs:
+    logo: images/shiny.png
+    footer: "posit::conf 2023 - Getting Started with Shiny"
+    slide-number: true
+    highlight-style: a11y
+    theme: [default, custom.scss]
+    self-contained: true
+execute:
+  echo: true
+title-slide-attributes:
+    data-background-image: "images/Hyatt-Regency-Chicago.webp"
+    data-background-size: cover
+    data-background-opacity: "0.5"
+---
+
+```{r setup}
+#| include: false
+library(shiny)
+```
+
+# Introduction to Shiny
+
+## Shiny
+
+> Shiny is an R package that makes it easy to build interactive web apps straight from R. You can host standalone apps on a webpage or embed them in R Markdown documents or build dashboards. You can also extend your Shiny apps with CSS themes, htmlwidgets, and JavaScript actions.
+
+## Shiny App
+
+<br/>
+
+::: columns
+::: {.column width="40%" .larger}
+Server
+
+::: {style="border: 2px solid; border-radius: 5px; text-align:center; font-size: 90px; height: 250px"}
+`r fontawesome::fa("r-project")` + `r fontawesome::fa("server")`
+:::
+:::
+
+::: {.column width="20%"}
+::: {style="text-align: center; font-size: 90px; padding-top: 20px"}
+<br/>⇄
+:::
+:::
+
+
+::: {.column width="40%" .larger}
+Client / Browser
+
+::: {style="border: 2px solid; border-radius: 5px; text-align: center; height: 250px"}
+::: {style="font-size: 90px"}
+`r fontawesome::fa("file-code")`
+:::
+
+::: {style="font-size: 50px"}
+`r fontawesome::fa("html5")` + `r fontawesome::fa("js")` + `r fontawesome::fa("css3")`
+:::
+:::
+
+:::
+
+:::
+
+
+## Anatomy of an App
+
+```{r shiny-anatomy}
+#| eval: false
+#| echo: true
+#| code-line-numbers: "|3-8|4|6-8"
+library(shiny)
+
+shinyApp(
+  ui = list(),
+  
+  server = function(input, output, session) {
+  
+  }
+)
+```
+
+
+## Demo 1 - A Basic Example
+
+::: {.code-file .sourceCode .cell-code}
+`r fontawesome::fa("file")` `demos/demo01.R`
+:::
+```{r}
+#| eval: false
+#| code-line-numbers: "|1-3|5-27|6-19|20-28"
+#| file: "../demos/demo01.R"
+```
+
+
+## Your turn - Exercise 1
+
+Copy the code from the previous slide (or open `exercises/ex01.R`) and try running it in your console.
+
+Check that you are able successfully run the shiny app and are able to interact with it. 
+
+* If everything is working try modifying the code (e.g. try adding or removing a city from `radioButtons()`).
+
+* What happens if you add a city that is not in the `weather.csv` data set to the radio button input?
+
+```{r}
+#| echo: false
+countdown::countdown(5)
+```
+
+
+## Troubleshooting
+
+A couple of quick tips:
+
+- If you can find the data, make sure you have opened the workshop's RStudio project
+
+- Make sure you have the latest versions of `shiny` and `tidyverse` installed
+
+- If you are stuck, ask a neighbor for help and or raise your hand and myself or a TA will come by
+
+
+# Layouts
+
+## Sidebar layout
+
+![](images/layout-sidebar.png){fig-align="center" width="60%"}
+
+::: aside
+From [Mastering Shiny](https://mastering-shiny.org/action-layout.html#page-with-sidebar)
+:::
+
+## Multi-row layout
+
+![](images/layout-fluidrow.png){fig-align="center" width="60%"}
+
+::: aside
+From [Mastering Shiny](https://mastering-shiny.org/action-layout.html#multi-row)
+:::
+
+## Other layouts
+
+-   Tabsets 
+    
+    - see `tabsetPanel()`
+
+-   Navbars and navlists
+
+    -   See `navlistPanel()`
+    
+    -   and `navbarPage()`
+
+- Dashboards
+    
+    - [flexdashboard](https://pkgs.rstudio.com/flexdashboard/)
+    
+    - [Shinydashboard](https://rstudio.github.io/shinydashboard/)
+
+# Input Widgets
+
+## Shiny Widgets Gallery
+
+::: {style="text-align: center"}
+<https://shiny.posit.co/r/gallery/widgets/widget-gallery/>
+:::
+
+<iframe data-src="https://gallery.shinyapps.io/081-widgets-gallery/" width="100%" height="500px" style="border:1px solid;border-radius: 5px;" data-external="1">
+
+</iframe>
+
+
+## A brief widget tour
+
+::: {style="text-align: center"}
+[rundel.shinyapps.io/widgets/](https://rundel.shinyapps.io/widgets/)
+:::
+
+
+<iframe data-src="https://rundel.shinyapps.io/widgets/" width="100%" height="500px" style="border:1px solid;border-radius: 5px;" data-external="1">
+
+</iframe>
+
+:::{.aside}
+Take a look at `widgets/widgets.qmd` if you want to see how this was built.
+:::
+
+
+## Your turn - Exercise 2
+
+We've just seen a number of alternative input widgets, starting from the code in `exercises/ex02.R` try changing the `radioButton()` input to something else.
+
+What happens if you use an input capable of selecting multiple values 
+
+* e.g. `checkboxGroupInput()` 
+* or `selectInput(multiple = TRUE)`?
+
+
+```{r}
+#| echo: false
+countdown::countdown(6)
+```
+

@@ -1,0 +1,520 @@
+---
+title: "Getting Started with Shiny<br/>Basic Reactivity"
+author: "Colin Rundel"
+format: 
+  revealjs:
+    logo: images/shiny.png
+    footer: "posit::conf 2023 - Getting Started with Shiny"
+    slide-number: true
+    highlight-style: a11y
+    theme: [default, custom.scss]
+    self-contained: true
+execute:
+  echo: true
+title-slide-attributes:
+    data-background-image: "images/Hyatt-Regency-Chicago.webp"
+    data-background-size: cover
+    data-background-opacity: "0.5"
+---
+
+# Basic Reactivity
+
+## Reactive elements
+
+::: {.code-file .sourceCode .cell-code}
+`r fontawesome::fa("file")` `demos/demo01.R`
+:::
+::: {.code-half}
+```{r}
+#| eval: false
+#| code-line-numbers: "10-13|16|10-13,16"
+#| file: "../demos/demo01.R"
+```
+:::
+
+
+```{mermaid}
+#| include: false
+flowchart TD
+  subgraph outputs
+  n2[plot]
+  end
+  subgraph inputs
+  n1([city]) 
+  end
+```
+
+::: {style="width:100%; height: 22%; text-align: center;"}
+::: {style="width:30%; display: inline-block; text-align: center;"}
+![](images/mermaid1.png){fig-align="center" width="100%"}
+:::
+:::
+
+Our inputs and outputs are defined by our `ui` elements.
+
+
+## Reactive expression
+
+::: {.code-file .sourceCode .cell-code}
+`r fontawesome::fa("file")` `demos/demo01.R`
+:::
+::: {.code-half}
+```{r}
+#| eval: false
+#| code-line-numbers: "20-27|21,23"
+#| file: "../demos/demo01.R"
+```
+:::
+
+```{mermaid}
+#| include: false
+flowchart LR
+  subgraph outputs
+  n2[plot]
+  end
+  subgraph inputs
+  n1([city]) 
+  end
+  n1 --> n2
+```
+
+::: {style="width:100%; height: 22%; text-align: center;"}
+::: {style="width:30%; display: inline-block; text-align: center;"}
+![](images/mermaid2.png){fig-align="center" width="100%"}
+:::
+:::
+
+The "reactive" logic is defined by our `server` function - `shiny` takes care of figuring out what depends on what.
+
+
+## Demo 2 - Adding an input
+
+::: {.code-file .sourceCode .cell-code}
+`r fontawesome::fa("file")` `demos/demo02.R`
+:::
+```{r}
+#| eval: false
+#| file: "../demos/demo02.R"
+#| code-line-numbers: "|14,10-13|19-33|22,24"
+```
+
+
+## Reactive graph
+
+With these additions, what should our reactive graph look like now?
+
+. . .
+
+```{mermaid}
+#| include: false
+flowchart LR
+  subgraph outputs
+  out1[plot]
+  end
+  subgraph inputs
+  in1([city]) 
+  in2([forecast]) 
+  end
+  in1 & in2 --> out1
+```
+
+::: {style="width:100%; text-align: center;"}
+::: {style="width:40%; display: inline-block; text-align: center;"}
+![](images/mermaid3.png){fig-align="center" width="100%"}
+:::
+:::
+
+
+## Your turn - Exercise 3
+
+Starting with the `demo02.R` code (available in `exercises/ex03.R`) add a `tableOutput()` to the app's `mainPanel()`.
+
+Once you have done that you should then add logic to the `server` function to render a table that shows the daily min and max temperature for each day of the week.
+
+- You will need to use `renderTable()`
+- `lubridate::wday()` is likely to be useful along with `group_by()` & `summarize()`
+
+```{r}
+#| echo: false
+countdown::countdown(6)
+```
+
+
+## Reactive graph (again)
+
+```{mermaid}
+#| include: false
+flowchart LR
+  subgraph outputs
+  out1[plot]
+  out2[minmax]
+  end
+  subgraph inputs
+  in1([city]) 
+  in2([forecast]) 
+  end
+  in1 & in2 --> out1
+  in1 --> out2
+```
+
+<br/><br/>
+
+::: {style="width:100%; text-align: center;"}
+::: {style="width:40%; display: inline-block; text-align: center;"}
+![](images/mermaid4.png){fig-align="center" width="100%"}
+:::
+:::
+
+## reactlog
+
+Another (more detailed) way of seeing the reactive graph (dynamically) for your app is using the `reactlog` package.
+
+
+Run the following to log and show all of the reactive events occuring within `ex03_soln.R`, 
+```{r}
+#| eval: false
+reactlog::reactlog_enable()
+
+(source(here::here("exercises/solutions/ex03_soln.R")))
+
+shiny::reactlogShow()
+```
+
+
+# User selected variables
+
+## Demo 3 - Not just temperature
+
+::: {.code-file .sourceCode .cell-code}
+`r fontawesome::fa("file")` `demos/demo03.R`
+:::
+```{r}
+#| eval: false
+#| code-line-numbers: "|5-7|18-21|30-36|38-51"
+#| file: ../demos/demo03.R
+```
+
+
+## `.data` & `.env`
+
+These are an excellent option for avoiding some of the complexity around NSE with `rlang` (e.g. `{{`, `!!`, `enquo()`, etc.) when working with functions built with the tidy eval framework (e.g. `dplyr` and `ggplot2`).
+
+<blockquote cite="https://rlang.r-lib.org/reference/dot-data.html">
+* `.data` retrieves data-variables from the data frame.
+* `.env` retrieves env-variables from the environment.
+</blockquote>
+
+For more details see the rlang [.data and .env pronouns](https://rlang.r-lib.org/reference/dot-data.html) article.
+
+# `reactive()` & `observe()`
+
+## Don't repeat yourself (DRY)
+
+::: {.code-file .sourceCode .cell-code}
+`r fontawesome::fa("file")` `demos/demo03.R`
+:::
+```{r}
+#| eval: false
+#| code-line-numbers: "31-32,39-40"
+#| file: ../demos/demo03.R
+```
+
+## Demo 4 - Use a reactive
+
+::: {.code-file .sourceCode .cell-code}
+`r fontawesome::fa("file")` `demos/demo04.R`
+:::
+```{r}
+#| eval: false
+#| code-line-numbers: "|31-35|37,44"
+#| file: ../demos/demo04.R
+```
+
+## Reactive expressions
+
+These are an example of a "reactive conductor" as they exist in between sources (e.g. an input) and endpoints (e.g. an output).
+
+As such a `reactive()` depends on various upstream inputs and can be used to generate output.
+
+Their primary use is similar to a function in an R script, they help to
+
+- avoid repeating yourself
+
+- decompose complex computations into smaller / more modular steps
+
+- can improve computational efficiency by breaking up / simplifying reactive dependencies
+
+
+## `reactive()` tips
+
+- Code written similarly to `render*()` functions
+
+- If `react_obj = reactive({...})` then any consumer 
+  must access value using `react_obj()` and *not* `react_obj`
+    - think of `react_obj` as a function that returns the current value
+    - Common cause of ~~everyone's~~ my favorite R error ,
+      
+      ``` 
+      ## Error: object of type 'closure' is not subsettable`
+      ```
+
+- Like `input` reactive expressions may only be used within a reactive context (e.g. `render*()`, `reactive()`, `observer()`, etc.)
+  
+  ```
+  ## Error: Operation not allowed without an active reactive context. (You tried to do something that can only be done from inside a reactive expression or observer.)
+  ```
+
+## Reactive graph
+
+```{mermaid}
+#| include: false
+flowchart LR
+  subgraph outputs
+  out1[plot]
+  out2[minmax]
+  end
+  subgraph reactives
+  react1{{d_city}}
+  end
+  subgraph inputs
+  in1([city]) 
+  in2([var])
+  end
+  in1 --> react1
+  react1 --> out1 & out2
+  in2 --> out1 & out2
+```
+
+<br/><br/>
+
+::: {style="width:100%; text-align: center;"}
+::: {style="width:80%; display: inline-block; text-align: center;"}
+![](images/mermaid5.png){fig-align="center" width="100%"}
+:::
+:::
+
+## `observer()`
+
+These are constructed in the same way as a `reactive()` however an observer does not return a value, as such they are used for their side effects.
+
+* The side effects in most cases involve sending data to the client broswer, e.g. updating a UI element
+
+* While not obvious given their syntax - the results of the `render*()` functions are observers.
+
+## Demo 5 - Cities AND states
+
+::: {.code-file .sourceCode .cell-code}
+`r fontawesome::fa("file")` `demos/demo05.R`
+:::
+```{r}
+#| eval: false
+#| code-line-numbers: "14-22|41-53|36"
+#| file: ../demos/demo05.R
+```
+
+## Reactive graph
+
+```{mermaid}
+#| include: false
+flowchart LR
+  subgraph outputs
+  out1[plot]
+  out2[minmax]
+  end
+  subgraph observers
+  obs1[obs]
+  end
+  subgraph reactives
+  react1{{d_city}}
+  end
+  subgraph inputs
+  in0([state])
+  in1([city]) 
+  in2([var])
+  end
+  in0 --> obs1
+  obs1 -.-> in1
+  in1 --> react1
+  react1 --> out1 & out2
+  in2 --> out1 & out2
+```
+
+<br/><br/>
+
+::: {style="width:100%; text-align: center;"}
+::: {style="width:90%; display: inline-block; text-align: center;"}
+![](images/mermaid6.png){fig-align="center" width="100%"}
+:::
+:::
+
+
+## Using `req()`
+
+You may have notices that the App initializes with East selected for the region but no initial selection for the city. Because of this we have some warnings generated initially:
+
+```r
+Warning in min(.data[["temperature"]]) :
+  no non-missing arguments to min; returning Inf
+```
+
+This can be a common occurrence, particularly at initialization (or if a user enters bad / unexpected input).
+
+A good way to protect against this is to validate inputs - the simplest way is to use `req()` which checks if a value is [truthy](https://shiny.rstudio.com/reference/shiny/latest/isTruthy.html). Non-truthy values prevent further execution of the reactive code (and downstream consumer's code).
+
+More detailed validation and error reporting is possible with [`validate()`](https://shiny.rstudio.com/reference/shiny/1.7.0/validate.html) and [`need()`](https://shiny.rstudio.com/reference/shiny/1.7.0/validate.html).
+
+
+## A cautionary example
+
+```{r}
+#| eval: false
+library(shiny)
+
+shinyApp(
+  ui = fluidPage(
+    numericInput("n", "n", 0)
+  ),
+  server = function(input, output, session) {
+    observeEvent(input$n, {
+      updateNumericInput(inputId = "n", value = input$n + 1)
+    })
+  }
+)
+```
+
+::: {.aside}
+From [Mastering Shiny](https://mastering-shiny.org/action-dynamic.html#circular-references)
+:::
+
+
+## Your turn - Exercise 4
+
+Using the code from demo 4 as a starting point add another observer to the app that updates the `selectInput()` for `var` such that any variables that are constant (0 variance), for the currently selected cities, are removed.
+
+For example, given this time of year most cities will have 0 risk of snow for the reported period - therefore `snow` should **not** be selectable from the `var` input.
+
+*Hint* - think about what inputs / reactives would make the most sense to use for this.
+
+```{r}
+#| echo: false
+countdown::countdown(9)
+```
+
+
+## `bindEvent()`
+
+For both observers and reactive expressions Shiny will automatically determine reactive dependencies for you - in some cases this is not what we want.
+
+To explicitly control the reactive dependencies of reactive expressions, render functions, and observers we can modify them using `bindEvent()` where the dependencies are explicitly provided.
+
+Similar effects can be achieved via `observeEvent()` / `eventReactive()` but these have been soft deprecated as of Shiny 1.6.
+
+::: aside
+*Note* - when binding a reactive you must use the functional form, i.e. `react()` and not `react`
+:::
+
+
+# Downloading from Shiny
+
+## `downloadButton()` & `downloadHandler()`
+
+These are the UI and server components needed for downloading a file from your Shiny app. The downloaded file can be of any arbitrary type and content.
+
+`downloadButton()` is a special case of an `actionButton()` with specialized server syntax. 
+
+Specifically, within the server definition the `downloadHandler()` is attached to the button's id via `output`, e.g.
+```r
+output$download_btn = downloadHandler(...)
+```
+
+The handler then defines the `filename` function for generating a default filename and `content` function for writing the download file's content to a temporary file, which can then be served by Shiny for downloading.
+
+
+## Demo 6 - A download button
+
+::: {.code-file .sourceCode .cell-code}
+`r fontawesome::fa("file")` `demos/demo06.R`
+:::
+```{r}
+#| eval: false
+#| code-line-numbers: "|27|37-47|38-43|44-46"
+#| file: ../demos/demo06.R
+```
+
+
+## Modal dialogs
+
+These are a popup window element that allow us to present important messages (e.g. warnings or errors) or other UI elements in a way that does not permanently clutter up the main UI of an app.
+
+The modal dialog consists of a number of Shiny UI elements (static or dynamic) and only displays when it is triggered (usually by something like an action button or link).
+
+They differ from other UI elements we've seen so far as they are usually defined within an app's server component not the ui.
+
+
+## Demo 7 - A fancy download button
+
+::: {.code-file .sourceCode .cell-code}
+`r fontawesome::fa("file")` `demos/demo07.R`
+:::
+```{r}
+#| eval: false
+#| code-line-numbers: "|26|36-49|51-65"
+#| file: ../demos/demo07.R
+```
+
+
+# Uploading data
+
+## Demo 8 - Using `fileInput()`
+
+::: {.code-file .sourceCode .cell-code}
+`r fontawesome::fa("file")` `demos/demo08.R`
+:::
+```{r}
+#| eval: false
+#| code-line-numbers: "|9|13,20-22|14,24-29"
+#| file: "../demos/demo08.R"
+```
+
+
+## `fileInput()` widget
+
+This widget behaves a bit differently than the others we have seen - once a file is uploaded it returns a data frame with one row per file and the following columns:
+
+* `name` - the original filename (from the client's system)
+
+* `size` - file size in bytes
+
+* `type` - file [mime type](https://en.wikipedia.org/wiki/Media_type), usually determined by the file extension
+
+* `datapath` - location of the *temporary* file on the server
+
+
+Given this data frame your app's server code is responsible for the actual process of reading in the uploaded file.
+
+
+## `fileInput()` hints
+
+* `input$upload` will default to `NULL` when the app is loaded, using `req(input$upload)` for downstream consumers is a good idea
+
+* Files in `datapath` are temporary and should be treated as ephemeral 
+
+  * additional uploads can result in the previous files being deleted
+
+* `type` is at best a guess - validate uploaded files and write defensive code
+
+* The `accept` argument helps to limit file types but cannot prevent bad uploads
+
+
+## Your turn - Exercise 5
+
+Starting with the app version from Demo 5 (code available in `exercises/ex05.R`) replace the preloading of the weather data (`d` and `d_vars`) with reactive versions that are populated via a `fileInput()` widget. 
+
+You should then be able to get the same app behavior as before once `data/weather.csv` is uploaded. You can also check that your app works with the `data/sedona.csv` and `data/gayload.csv` datasets as well.
+
+*Hint* - remember that anywhere that uses either `d` or `d_vars` will now need to use `d()` and `d_vars()` instead.
+
+```{r}
+#| echo: false
+countdown::countdown(9)
+```

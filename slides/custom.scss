@@ -1,0 +1,117 @@
+/*-- scss:defaults --*/
+
+$presentation-font-size-root: 32px;
+
+/*-- scss:rules --*/
+
+input#numeric {
+  width: 250px;
+  height: 25px;
+  font-size: 20px;
+}
+
+input#text {
+  width: 250px;
+  height: 25px;
+  font-size: 20px;
+}
+
+.shiny-input-container label.control-label {
+  font-weight: bold;
+}
+
+.shiny-input-container, .shiny-text-output {
+  font-size: 24px;
+}
+
+.reveal .slide .columns:nth-child(3n) {
+    margin-block-start: 0.8em;
+}
+
+.reveal p {
+  margin-top: 24px;
+  margin-bottom: 8px;
+}
+
+.reveal .footer {
+  color: var(--r-heading-color);
+}
+
+.reveal .slide-menu-button a {
+  color: var(--r-heading-color);
+}
+
+.reveal .slide-logo {
+  max-height: 4rem;
+}
+
+.reveal countdown {
+  position: fixed;
+  bottom: 1.5em;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 60px;
+  border: 2px solid;
+  border-radius: 5px;
+  padding-left: 12px;
+  padding-right: 12px;
+  user-select: none;
+}
+
+.reveal .code-half pre code {
+  max-height: 250px !important;
+}
+
+.reveal .code-file {
+  background-color: #ECECEC;
+  margin-bottom: 2px !important;
+}
+
+.reveal .code-file p {
+  margin-top: 2px;
+  margin-bottom: 2px;
+  font-size: 18px;
+  margin-left: 0.8em;
+}
+
+
+element.style {
+}
+.reveal div.sourceCode pre code {
+    min-height: 100%;
+}
+.reveal pre.sourceCode code {
+  max-height: 550px;
+}
+
+.reveal blockquote {
+  margin-top: 24px;
+  margin-bottom: 24px;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.reveal blockquote>p {
+  margin-top: 0;
+}
+
+.reveal .small {
+  font-size: 80%;
+}
+
+.reveal .large {
+  font-size: 120%;
+}
+
+.reveal .larger {
+  font-size: 150%;
+}
+
+.reveal table.details {
+  margin-top: 7.5%;
+}
+
+.reveal table.details td {
+  border-bottom: none;
+  padding: .5em .5em .5em .5em;
+}
