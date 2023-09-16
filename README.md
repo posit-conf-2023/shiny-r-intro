@@ -8,7 +8,7 @@ by Colin Rundel
 
 :spiral_calendar: September 17, 2023  
 :alarm_clock:     09:00 - 17:00  
-:hotel:           ROOM TBD  
+:hotel:           Grand Hall L
 :writing_hand:    [pos.it/conf](http://pos.it/conf)
 
 -----
@@ -35,16 +35,17 @@ There is nothing you will need to do before attending this workshop. We will be 
 
 ### Day 1
 
-| Time          | Activity              |
-| :------------ | :-------------------- |
-| 09:00 - 09:30 | Welcome               |
-| 09:30 - 10:30 | Intro to Shiny        |
-| 10:30 - 11:00 | *Coffee break*        |
-| 11:00 - 12:30 | Basic Reactivity      |
-| 12:30 - 13:30 | *Lunch break*         |
-| 13:30 - 15:00 | Observers & reactives |
-| 15:00 - 15:30 | *Coffee break*        |
-| 15:30 - 17:00 | Themeing & Publishing |
+| Time          | Activity              | Materials                |
+| :------------ | :-------------------- | :----------------------- |
+| 09:00 - 09:30 | Welcome               | <a href="https://posit-conf-2023.github.io/shiny-r-intro/slides/01-Welcome.html">:notebook:</a>.       |
+| 09:30 - 10:30 | Intro to Shiny        | <a href="https://posit-conf-2023.github.io/shiny-r-intro/slides/02-intro_to_shiny.html">:notebook:</a> |
+| 10:30 - 11:00 | *Coffee break*        |                                                                                                        |
+| 11:00 - 12:30 | Basic Reactivity      | <a href="https://posit-conf-2023.github.io/shiny-r-intro/slides/03-reactivity.html">:notebook:</a>     |
+| 12:30 - 13:30 | *Lunch break*         |                                                                                                        |
+| 13:30 - 15:00 | Observers & reactives | <a href="https://posit-conf-2023.github.io/shiny-r-intro/slides/03-reactivity.html">:notebook:</a>     |
+| 15:00 - 15:30 | *Coffee break*        |                                                                                                        |
+| 15:30 - 16:30 | Theming & Publishing  | <a href="https://posit-conf-2023.github.io/shiny-r-intro/slides/04-theming_publishing.html">:notebook:</a>     |
+| 16:30 - 17:00 | Wrap-up               | <a href="https://posit-conf-2023.github.io/shiny-r-intro/slides/05-wrap-up.html">:notebook:</a>     |
 
 
 ## Instructor
