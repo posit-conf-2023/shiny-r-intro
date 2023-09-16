@@ -178,7 +178,7 @@ You should have received an email with an invitation and instructions for joinin
 This workshop has a private channel under Workshops,
 
 ::: {.large style="text-align: center"}
-#✨-getting-started-with-shiny
+#getting-started-with-shiny-r
 :::
 
 
