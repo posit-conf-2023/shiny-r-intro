@@ -2,3 +2,9 @@ title: Getting Started with Shiny for R
 theme: minima
 plugins:
   - jemoji
+exclude:
+- slides/01-Welcome.qmd
+- slides/02-intro_to_shiny.qmd
+- slides/03-reactivity.qmd
+- slides/04-theming_publishing.qmd
+- slides/05-wrap-up.qmd
