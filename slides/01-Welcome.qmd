@@ -193,7 +193,7 @@ This is a great place to ask questions, post resources, memes, or most anything 
 You can use the following link to join the workshops RStudio cloud space,
 
 ::: {style="text-align: center;"}
-<https://bit.ly/conf2023_shiny_cloud>
+[bit.ly/conf2023_shiny_cloud](https://bit.ly/conf2023_shiny_cloud)
 :::
 
 
