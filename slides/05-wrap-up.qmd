@@ -14,7 +14,7 @@ execute:
 title-slide-attributes:
     data-background-image: "images/Hyatt-Regency-Chicago.webp"
     data-background-size: cover
-    data-background-opacity: "0.5"
+    data-background-opacity: "0.33"
 ---
 
 # What next / what else

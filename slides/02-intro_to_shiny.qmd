@@ -14,15 +14,13 @@ execute:
 title-slide-attributes:
     data-background-image: "images/Hyatt-Regency-Chicago.webp"
     data-background-size: cover
-    data-background-opacity: "0.5"
+    data-background-opacity: "0.33"
 ---
 
 ```{r setup}
 #| include: false
 library(shiny)
 ```
-
-# Introduction to Shiny
 
 ## Shiny
 
@@ -84,21 +82,21 @@ shinyApp(
 ```
 
 
-## Demo 1 - A Basic Example
+## Demo 01 - A Basic Example
 
 ::: {.code-file .sourceCode .cell-code}
 `r fontawesome::fa("file")` `demos/demo01.R`
 :::
 ```{r}
 #| eval: false
-#| code-line-numbers: "|1-3|5-27|6-19|20-28"
+#| code-line-numbers: "|1-3|5-28|6-19|20-28"
 #| file: "../demos/demo01.R"
 ```
 
 
-## Your turn - Exercise 1
+## Your turn - Exercise 01
 
-Copy the code from the previous slide (or open `exercises/ex01.R`) and try running it in your console.
+Copy the code from the previous slide (or open `exercises/ex01.R`) and try running it using the Run App button.
 
 Check that you are able successfully run the shiny app and are able to interact with it. 
 
@@ -116,11 +114,11 @@ countdown::countdown(5)
 
 A couple of quick tips:
 
-- If you can find the data, make sure you have opened the workshop's RStudio project
+- If the app can't find the data, make sure you have opened the workshop's RStudio project
 
 - Make sure you have the latest versions of `shiny` and `tidyverse` installed
 
-- If you are stuck, ask a neighbor for help and or raise your hand and myself or a TA will come by
+- If you are stuck, ask a neighbor for help and/or raise your hand and myself or a TA will come by
 
 
 # Layouts
@@ -158,6 +156,8 @@ From [Mastering Shiny](https://mastering-shiny.org/action-layout.html#multi-row)
     - [flexdashboard](https://pkgs.rstudio.com/flexdashboard/)
     
     - [Shinydashboard](https://rstudio.github.io/shinydashboard/)
+    
+    - [bslib](https://rstudio.github.io/bslib/)
 
 # Input Widgets
 
@@ -183,18 +183,15 @@ From [Mastering Shiny](https://mastering-shiny.org/action-layout.html#multi-row)
 
 </iframe>
 
-:::{.aside}
-Take a look at `widgets/widgets.qmd` if you want to see how this was built.
-:::
 
-
-## Your turn - Exercise 2
+## Your turn - Exercise 02
 
 We've just seen a number of alternative input widgets, starting from the code in `exercises/ex02.R` try changing the `radioButton()` input to something else.
 
 What happens if you use an input capable of selecting multiple values 
 
 * e.g. `checkboxGroupInput()` 
+
 * or `selectInput(multiple = TRUE)`?
 
 

@@ -9,7 +9,7 @@ shinyApp(
       sidebarPanel(
         radioButtons(
           "city", "Select a city",
-          choices = c("Washington", "New York", "Los Angeles", "Chicago")
+          choices = c("Chicago", "Durham", "Sedona", "New York", "Los Angeles")
         ) 
       ),
       mainPanel( plotOutput("plot") )
@@ -19,7 +19,7 @@ shinyApp(
     output$plot = renderPlot({
       d |>
         filter(city %in% input$city) |>
-        ggplot(aes(x=time, y=temperature, color=city)) +
+        ggplot(aes(x=time, y=temp, color=city)) +
         geom_line()
     })
   }
