@@ -7,9 +7,16 @@ by Colin Rundel
 -----
 
 :spiral_calendar: September 17, 2023  
+
 :alarm_clock:     09:00 - 17:00  
+
 :hotel:           Grand Hall L
+
 :writing_hand:    [pos.it/conf](http://pos.it/conf)
+
+:link:            [pos.it/shiny-conf23](http://pos.it/shiny-conf23)
+
+:octocat:         [posit-conf-2023/shiny-r-intro](https://github.com/posit-conf-2023/shiny-r-intro)
 
 -----
 
@@ -37,7 +44,7 @@ There is nothing you will need to do before attending this workshop. We will be 
 
 | Time          | Activity              | Materials                |
 | :------------ | :-------------------- | :----------------------- |
-| 09:00 - 09:30 | Welcome               | <a href="https://posit-conf-2023.github.io/shiny-r-intro/slides/01-Welcome.html">:notebook:</a>.       |
+| 09:00 - 09:30 | Welcome               | <a href="https://posit-conf-2023.github.io/shiny-r-intro/slides/01-Welcome.html">:notebook:</a>        |
 | 09:30 - 10:30 | Intro to Shiny        | <a href="https://posit-conf-2023.github.io/shiny-r-intro/slides/02-intro_to_shiny.html">:notebook:</a> |
 | 10:30 - 11:00 | *Coffee break*        |                                                                                                        |
 | 11:00 - 12:30 | Basic Reactivity      | <a href="https://posit-conf-2023.github.io/shiny-r-intro/slides/03-reactivity.html">:notebook:</a>     |
