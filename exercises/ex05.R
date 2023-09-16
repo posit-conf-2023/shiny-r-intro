@@ -12,12 +12,8 @@ shinyApp(
     sidebarLayout(
       sidebarPanel(
         selectInput(
-          "region", "Select a region",
-          choices = sort(unique(d$region))
-        ),
-        selectInput(
           "city", "Select a city",
-          choices = c(),
+          choices = unique(d$city), selected = "Chicago",
           multiple = TRUE
         ),
         selectInput(
@@ -36,19 +32,6 @@ shinyApp(
       req(input$city)
       d |>
         filter(city %in% input$city)
-    })
-    
-    observe({
-      cities = d |>
-        filter(region == input$region) |>
-        pull(city) |>
-        unique() |>
-        sort()
-      
-      updateSelectInput(
-        inputId = "city", 
-        choices = cities
-      )
     })
     
     output$plot = renderPlot({

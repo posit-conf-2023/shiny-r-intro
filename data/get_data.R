@@ -74,6 +74,16 @@ get_city_weather = function(city, state, region, lat, long) {
 cities = readr::read_csv(here::here("data/cities.csv")) |>
   pmap(purrr::safely(get_city_weather))
 
-readr::write_csv(map_dfr(cities, c("result","days")), here::here("data/daily_weather.csv"))
-readr::write_csv(map_dfr(cities, c("result","hours")), here::here("data/weather.csv"))
+daily = map_dfr(cities, c("result","days"))
+hourly = map_dfr(cities, c("result","hours"))
 
+readr::write_csv(daily, here::here("data/daily_weather.csv"))
+readr::write_csv(hourly, here::here("data/weather.csv"))
+
+hourly |>
+  filter(city == "Sedona") |>
+  readr::write_csv(here::here("data/sedona.csv"))
+
+hourly |>
+  filter(city == "Chicago") |>
+  readr::write_csv(here::here("data/chicago.csv"))

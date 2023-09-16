@@ -1,5 +1,5 @@
 ---
-title: "Getting Started with Shiny<br/>Basic Reactivity"
+title: "Getting Started with Shiny<br/>Reactivity"
 author: "Colin Rundel"
 format: 
   revealjs:
@@ -27,7 +27,7 @@ title-slide-attributes:
 ::: {.code-half}
 ```{r}
 #| eval: false
-#| code-line-numbers: "10-13|16|10-13,16"
+#| code-line-numbers: "|10-13|16|10-13,16"
 #| file: "../demos/demo01.R"
 ```
 :::
@@ -50,7 +50,7 @@ flowchart TD
 :::
 :::
 
-Our inputs and outputs are defined by our `ui` elements.
+Our inputs and outputs are defined by the elements in our `ui`.
 
 
 ## Reactive expression
@@ -84,10 +84,10 @@ flowchart LR
 :::
 :::
 
-The "reactive" logic is defined by our `server` function - `shiny` takes care of figuring out what depends on what.
+The "reactive" logic is defined in our `server` function - `shiny` takes care of figuring out what depends on what.
 
 
-## Demo 2 - Adding an input
+## Demo 02 - Adding an input
 
 ::: {.code-file .sourceCode .cell-code}
 `r fontawesome::fa("file")` `demos/demo02.R`
@@ -95,7 +95,7 @@ The "reactive" logic is defined by our `server` function - `shiny` takes care of
 ```{r}
 #| eval: false
 #| file: "../demos/demo02.R"
-#| code-line-numbers: "|14,10-13|19-33|22,24"
+#| code-line-numbers: "|10-13|14|19-33|22|24-31"
 ```
 
 
@@ -125,18 +125,18 @@ flowchart LR
 :::
 
 
-## Your turn - Exercise 3
+## Your turn - Exercise 03
 
-Starting with the `demo02.R` code (available in `exercises/ex03.R`) add a `tableOutput()` to the app's `mainPanel()`.
+Starting with the code  in `exercises/ex03.R` (base on `demo02.R`'s code) add a `tableOutput()` to the app's `mainPanel()`.
 
 Once you have done that you should then add logic to the `server` function to render a table that shows the daily min and max temperature for each day of the week.
 
 - You will need to use `renderTable()`
-- `lubridate::wday()` is likely to be useful along with `group_by()` & `summarize()`
+- `lubridate::wday()` will be useful along with `group_by()` & `summarize()`
 
 ```{r}
 #| echo: false
-countdown::countdown(6)
+countdown::countdown(9)
 ```
 
 
@@ -183,7 +183,7 @@ shiny::reactlogShow()
 
 # User selected variables
 
-## Demo 3 - Not just temperature
+## Demo 03 - Not just temperature
 
 ::: {.code-file .sourceCode .cell-code}
 `r fontawesome::fa("file")` `demos/demo03.R`
@@ -204,7 +204,10 @@ These are an excellent option for avoiding some of the complexity around NSE wit
 * `.env` retrieves env-variables from the environment.
 </blockquote>
 
+
+::: aside
 For more details see the rlang [.data and .env pronouns](https://rlang.r-lib.org/reference/dot-data.html) article.
+:::
 
 # `reactive()` & `observe()`
 
@@ -215,11 +218,11 @@ For more details see the rlang [.data and .env pronouns](https://rlang.r-lib.org
 :::
 ```{r}
 #| eval: false
-#| code-line-numbers: "31-32,39-40"
+#| code-line-numbers: "|31-32,39-40"
 #| file: ../demos/demo03.R
 ```
 
-## Demo 4 - Use a reactive
+## Demo 04 - Using a reactive
 
 ::: {.code-file .sourceCode .cell-code}
 `r fontawesome::fa("file")` `demos/demo04.R`
@@ -301,14 +304,14 @@ These are constructed in the same way as a `reactive()` however an observer does
 
 * While not obvious given their syntax - the results of the `render*()` functions are observers.
 
-## Demo 5 - Cities AND states
+## Demo 05 - Cities AND regions
 
 ::: {.code-file .sourceCode .cell-code}
 `r fontawesome::fa("file")` `demos/demo05.R`
 :::
 ```{r}
 #| eval: false
-#| code-line-numbers: "14-22|41-53|36"
+#| code-line-numbers: "|14-22|41-53|36"
 #| file: ../demos/demo05.R
 ```
 
@@ -387,11 +390,11 @@ From [Mastering Shiny](https://mastering-shiny.org/action-dynamic.html#circular-
 :::
 
 
-## Your turn - Exercise 4
+## Your turn - Exercise 04
 
-Using the code from demo 4 as a starting point add another observer to the app that updates the `selectInput()` for `var` such that any variables that are constant (0 variance), for the currently selected cities, are removed.
+Using the code provided in `exercise/ex04.R` as a starting point add another observer to the app that updates the `selectInput()` for `var` such that any variables that are constant (0 variance), for the currently selected cities, are removed.
 
-For example, given this time of year most cities will have 0 risk of snow for the reported period - therefore `snow` should **not** be selectable from the `var` input.
+For example, given this time of year most cities will have 0 risk of snow we would like to exclude the `snow` variable the `var` input.
 
 *Hint* - think about what inputs / reactives would make the most sense to use for this.
 
@@ -414,6 +417,7 @@ Similar effects can be achieved via `observeEvent()` / `eventReactive()` but the
 :::
 
 
+
 # Downloading from Shiny
 
 ## `downloadButton()` & `downloadHandler()`
@@ -430,7 +434,7 @@ output$download_btn = downloadHandler(...)
 The handler then defines the `filename` function for generating a default filename and `content` function for writing the download file's content to a temporary file, which can then be served by Shiny for downloading.
 
 
-## Demo 6 - A download button
+## Demo 06 - A download button
 
 ::: {.code-file .sourceCode .cell-code}
 `r fontawesome::fa("file")` `demos/demo06.R`
@@ -451,7 +455,7 @@ The modal dialog consists of a number of Shiny UI elements (static or dynamic) a
 They differ from other UI elements we've seen so far as they are usually defined within an app's server component not the ui.
 
 
-## Demo 7 - A fancy download button
+## Demo 07 - A fancy download button
 
 ::: {.code-file .sourceCode .cell-code}
 `r fontawesome::fa("file")` `demos/demo07.R`
@@ -506,11 +510,11 @@ Given this data frame your app's server code is responsible for the actual proce
 * The `accept` argument helps to limit file types but cannot prevent bad uploads
 
 
-## Your turn - Exercise 5
+## Your turn - Exercise 05
 
-Starting with the app version from Demo 5 (code available in `exercises/ex05.R`) replace the preloading of the weather data (`d` and `d_vars`) with reactive versions that are populated via a `fileInput()` widget. 
+Starting with the code in `exercises/ex05.R` replace the preloading of the weather data (`d` and `d_vars`) with reactive versions that are populated via a `fileInput()` widget. 
 
-You should then be able to get the same app behavior as before once `data/weather.csv` is uploaded. You can also check that your app works with the `data/sedona.csv` and `data/gayload.csv` datasets as well.
+You should then be able to get the same app behavior as before once `data/weather.csv` is uploaded. You can also check that your app works with the `data/sedona.csv` and `data/chicago.csv` datasets as well.
 
 *Hint* - remember that anywhere that uses either `d` or `d_vars` will now need to use `d()` and `d_vars()` instead.
 
