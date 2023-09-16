@@ -90,7 +90,7 @@ In the case of our flexdashboard (or other shiny app), all we need to do is to i
 
 
 
-## Your turn - Exercise 6
+## Your turn - Exercise 06
 
 Using code provided in `exercises/ex06.R` (which is the same as Demo 9's) experiment with bslib's themer tool to explore different themes .
 
@@ -109,7 +109,7 @@ countdown::countdown(10)
 
 # Deploying Shiny apps
 
-## Your turn - Exercise 8
+## Your turn - Exercise 07
 
 Go to [shinyapps.io](https://www.shinyapps.io/) and sign up for an account.
 
@@ -122,7 +122,7 @@ If asked to pick a plan, use the Free option (more than sufficient for our needs
 
 ```{r}
 #| echo: false
-countdown::countdown(5)
+countdown::countdown(3)
 ```
 
 
@@ -143,15 +143,15 @@ For deployment generally apps will be organized as a single folder that contains
 * Check / think about package dependencies
 
 
-## Your turn - Exercise 8
+## Your turn - Exercise 08
 
 Now we will publish one of the demo apps to shinyapps.io (you will need to have completed Exercise 8)
 
-1. Package up either `demo05.R` as an app in `exercises/ex08app` (you will need to create this folder)
+1. Package up `ex08.R` as an app in `exercises/ex08app` (you will need to create this folder)
     - Make sure to copy the data (`weather.csv`) into this folder
-    - and adjust any paths if necessary
+    - Adjust any paths if necessary
   
-2. Open the script file in `exercises/ex9app` and click the Publish Document button in the upper right of the pane (look for the ![](images/publish_button.png) icon)
+2. Open the script file in `exercises/ex08app` and click the Publish Document button in the upper right of the pane (look for the ![](images/publish_button.png) icon)
 
     - You should be presented with the "Publish to server", click on the Add New Account link in the upper right
     
@@ -159,7 +159,7 @@ Now we will publish one of the demo apps to shinyapps.io (you will need to have 
     
     - When retrieving your token for shinyapps.ip you may need to click `Dashboard` first and then your name (both in the upper right)
 
-## Your turn - Exercise 8 (cont.)
+## Your turn - Exercise 08 (cont.)
 
 3. Once authenticated you should be back at the "Publish to server" dialog, use this to select which files to include (select your script and data file)
 
