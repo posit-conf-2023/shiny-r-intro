@@ -1,0 +1,193 @@
+city,state,region,time,temp,feelslike,humidity,dew,precip,precipprob,snow,snowdepth,windgust,windspeed,winddir,pressure,visibility,cloudcover,solarradiation,solarenergy,uvindex,severerisk,conditions,icon,source
+Chicago,Illinois,Midwest,2023-09-11T05:00:00Z,69.8,69.8,62.65,56.5,0,0,0,0,10.3,5.5,151,1018.2,9.9,64.2,0,0,0,10,Partially cloudy,partly-cloudy-night,obs
+Chicago,Illinois,Midwest,2023-09-11T06:00:00Z,69.4,69.4,63.92,56.7,0,0,0,0,10.3,6.4,148,1017.8,9.9,93,0,0,0,10,Overcast,cloudy,obs
+Chicago,Illinois,Midwest,2023-09-11T07:00:00Z,70.6,70.6,56.41,54.3,0,0,0,0,9.2,6,168,1017.2,9.9,93,0,0,0,3,Overcast,cloudy,obs
+Chicago,Illinois,Midwest,2023-09-11T08:00:00Z,70,70,52.97,52,0,0,0,0,9.2,6.2,287,1016.8,9.9,100,0,0,0,3,Overcast,cloudy,obs
+Chicago,Illinois,Midwest,2023-09-11T09:00:00Z,68.4,68.4,55.38,51.8,0.008,100,0,0,9.2,6,254,1016.9,9.9,100,0,0,0,10,"Rain, Overcast",rain,obs
+Chicago,Illinois,Midwest,2023-09-11T10:00:00Z,65,65,72.64,56,0.028,100,0,0,9.2,5.2,221,1017.1,8.7,100,0,0,0,10,"Rain, Overcast",rain,obs
+Chicago,Illinois,Midwest,2023-09-11T11:00:00Z,61.8,61.8,88.85,58.4,0.271,100,0,0,11.4,3.8,215,1017.9,6.7,100,0,0,0,10,"Rain, Overcast",rain,obs
+Chicago,Illinois,Midwest,2023-09-11T12:00:00Z,62.3,62.3,91.09,59.6,0.029,100,0,0,10.3,5.1,197,1017.8,8.5,100,0,0,0,10,"Rain, Overcast",rain,obs
+Chicago,Illinois,Midwest,2023-09-11T13:00:00Z,63,63,93.33,61.1,0.035,100,0,0,9.2,5.7,185,1017.7,6.2,98.9,19,0.1,0,3,"Rain, Overcast",rain,obs
+Chicago,Illinois,Midwest,2023-09-11T14:00:00Z,64.2,64.2,93.56,62.3,0.009,100,0,0,8.1,8.2,210,1017.9,4.9,100,21,0.1,0,10,"Rain, Overcast",rain,obs
+Chicago,Illinois,Midwest,2023-09-11T15:00:00Z,65,65,93.91,63.2,0.021,100,0,0,8.1,6.5,261,1018.4,5.5,100,19,0.1,0,10,"Rain, Overcast",rain,obs
+Chicago,Illinois,Midwest,2023-09-11T16:00:00Z,65.6,65.6,94.43,64,0.043,100,0,0,8.1,4.9,257,1018.3,3.6,100,85,0.3,1,10,"Rain, Overcast",rain,obs
+Chicago,Illinois,Midwest,2023-09-11T17:00:00Z,65.7,65.7,93.8,63.9,0.046,100,0,0,9.2,2.1,350,1017.9,5.5,100,22,0.1,0,10,"Rain, Overcast",rain,obs
+Chicago,Illinois,Midwest,2023-09-11T18:00:00Z,65.5,65.5,93.4,63.5,0.058,100,0,0,9.2,6.5,287,1018.1,3.5,100,34,0.1,0,10,"Rain, Overcast",rain,obs
+Chicago,Illinois,Midwest,2023-09-11T19:00:00Z,66.4,66.4,90.04,63.4,0.053,100,0,0,11.4,6.9,151,1017.7,6.5,100,45,0.2,0,10,"Rain, Overcast",rain,obs
+Chicago,Illinois,Midwest,2023-09-11T20:00:00Z,64.5,64.5,91.93,62.1,0.044,100,0,0,13.9,5.7,32,1017.3,3.8,100,37,0.1,0,10,"Rain, Overcast",rain,obs
+Chicago,Illinois,Midwest,2023-09-11T21:00:00Z,64.3,64.3,94.18,62.6,0.113,100,0,0,15,6.3,37,1017.1,3.9,100,19,0.1,0,10,"Rain, Overcast",rain,obs
+Chicago,Illinois,Midwest,2023-09-11T22:00:00Z,64.2,64.2,92.37,61.9,0.096,100,0,0,18.3,6,7,1017.3,3.4,100,21,0.1,0,10,"Rain, Overcast",rain,obs
+Chicago,Illinois,Midwest,2023-09-11T23:00:00Z,63.5,63.5,93.5,61.6,0.073,100,0,0,16.1,5.1,12,1017.6,5.1,100,6,0,0,10,"Rain, Overcast",rain,obs
+Chicago,Illinois,Midwest,2023-09-12T00:00:00Z,63,63,92.47,60.7,0.013,100,0,0,16.1,8.8,355,1017.6,6.5,100,4,0,0,10,"Rain, Overcast",rain,obs
+Chicago,Illinois,Midwest,2023-09-12T01:00:00Z,63,63,92.85,60.9,0.009,100,0,0,15,7.3,348,1017.3,9.9,100,0,0,0,10,"Rain, Overcast",rain,obs
+Chicago,Illinois,Midwest,2023-09-12T02:00:00Z,62.8,62.8,93.55,61,0.028,100,0,0,15,8,333,1017.6,8,100,0,0,0,10,"Rain, Overcast",rain,obs
+Chicago,Illinois,Midwest,2023-09-12T03:00:00Z,62.1,62.1,94.3,60.4,0.098,100,0,0,15,6.2,326,1017.4,4.5,100,0,0,0,10,"Rain, Overcast",rain,obs
+Chicago,Illinois,Midwest,2023-09-12T04:00:00Z,61.6,61.6,94.91,60.2,0.013,100,0,0,15,7.2,349,1017.5,6.8,100,0,0,0,10,"Rain, Overcast",rain,obs
+Chicago,Illinois,Midwest,2023-09-12T05:00:00Z,61.3,61.3,94.11,59.6,0.008,100,0,0,16.1,6.6,338,1017.4,8,98.6,0,0,0,10,"Rain, Overcast",rain,obs
+Chicago,Illinois,Midwest,2023-09-12T06:00:00Z,60.8,60.8,94.46,59.2,0,0,0,0,17.2,8.1,333,1017.3,9.9,88.1,0,0,0,10,Partially cloudy,partly-cloudy-night,obs
+Chicago,Illinois,Midwest,2023-09-12T07:00:00Z,60,60,92.09,57.7,0,0,0,0,18.3,6.5,317,1017.3,9.9,77.6,0,0,0,10,Partially cloudy,partly-cloudy-night,obs
+Chicago,Illinois,Midwest,2023-09-12T08:00:00Z,58.7,58.7,92.95,56.7,0,0,0,0,20.8,6.6,327,1017.4,9.9,77.6,0,0,0,10,Partially cloudy,partly-cloudy-night,obs
+Chicago,Illinois,Midwest,2023-09-12T09:00:00Z,57.6,57.6,94.1,55.9,0,0,0,0,21.9,7.9,327,1017.2,9.9,77.6,0,0,0,10,Partially cloudy,partly-cloudy-night,obs
+Chicago,Illinois,Midwest,2023-09-12T10:00:00Z,56.8,56.8,93.57,55,0,0,0,0,21.9,8.2,329,1017.6,9.9,68.5,0,0,0,10,Partially cloudy,partly-cloudy-night,obs
+Chicago,Illinois,Midwest,2023-09-12T11:00:00Z,56.8,56.8,92.64,54.7,0,0,0,0,19.7,8.9,331,1018,9.9,40.7,0,0,0,10,Partially cloudy,partly-cloudy-night,obs
+Chicago,Illinois,Midwest,2023-09-12T12:00:00Z,56.2,56.2,92.04,54,0,0,0,0,23,12.2,328,1018.7,9.9,81.2,0,0,0,10,Partially cloudy,partly-cloudy-day,obs
+Chicago,Illinois,Midwest,2023-09-12T13:00:00Z,58.3,58.3,89.34,55.1,0,0,0,0,24.2,11.3,334,1019.1,9.9,79,98,0.4,1,10,Partially cloudy,partly-cloudy-day,obs
+Chicago,Illinois,Midwest,2023-09-12T14:00:00Z,61.2,61.2,80.37,55.1,0,0,0,0,25.3,11.6,338,1019.1,9.9,51.3,148,0.5,1,10,Partially cloudy,partly-cloudy-day,obs
+Chicago,Illinois,Midwest,2023-09-12T15:00:00Z,61.9,61.9,74.79,53.8,0,0,0,0,26.4,13,358,1019.3,9.9,96,158,0.6,2,10,Overcast,cloudy,obs
+Chicago,Illinois,Midwest,2023-09-12T16:00:00Z,65.5,65.5,65.52,53.6,0,0,0,0,18.3,10.7,360,1019.2,9.9,72,141,0.5,1,10,Partially cloudy,partly-cloudy-day,obs
+Chicago,Illinois,Midwest,2023-09-12T17:00:00Z,67.2,67.2,58.71,52.3,0,0,0,0,26.4,6.5,353,1019.1,9.9,81.2,247,0.9,2,10,Partially cloudy,partly-cloudy-day,obs
+Chicago,Illinois,Midwest,2023-09-12T18:00:00Z,69,69,55.68,52.5,0,0,0,0,17.2,8.6,324,1018.8,9.9,44.7,423,1.5,4,10,Partially cloudy,partly-cloudy-day,obs
+Chicago,Illinois,Midwest,2023-09-12T19:00:00Z,71.1,71.1,47.19,50,0,0,0,0,26.4,7.7,342,1018.4,9.9,69.5,72,0.3,1,10,Partially cloudy,partly-cloudy-day,obs
+Chicago,Illinois,Midwest,2023-09-12T20:00:00Z,70.8,70.8,52.82,52.8,0,0,0,0,18.3,7.3,32,1018.1,9.9,72,47,0.2,0,10,Partially cloudy,partly-cloudy-day,obs
+Chicago,Illinois,Midwest,2023-09-12T21:00:00Z,68.1,68.1,59.27,53.4,0,0,0,0,18.3,9,45,1018.1,9.9,77.6,36,0.1,0,10,Partially cloudy,partly-cloudy-day,obs
+Chicago,Illinois,Midwest,2023-09-12T22:00:00Z,69.1,69.1,57.12,53.3,0,0,0,0,17.2,8.1,55,1017.9,9.9,24,36,0.1,0,10,Partially cloudy,partly-cloudy-day,obs
+Chicago,Illinois,Midwest,2023-09-12T23:00:00Z,67,67,57.26,51.4,0,0,0,0,16.1,9.2,53,1018,9.9,24,86,0.3,1,10,Partially cloudy,partly-cloudy-day,obs
+Chicago,Illinois,Midwest,2023-09-13T00:00:00Z,64.2,64.2,55.74,48,0,0,0,0,15,6.7,55,1018.2,9.9,29.3,0,0,0,10,Partially cloudy,partly-cloudy-day,obs
+Chicago,Illinois,Midwest,2023-09-13T01:00:00Z,63.5,63.5,58.28,48.6,0,0,0,0,12.8,5.1,80,1018.3,9.9,52.8,0,0,0,10,Partially cloudy,partly-cloudy-night,obs
+Chicago,Illinois,Midwest,2023-09-13T02:00:00Z,62.3,62.3,65.36,50.5,0,0,0,0,11.4,5.5,119,1018.5,9.9,77.6,0,0,0,10,Partially cloudy,partly-cloudy-night,obs
+Chicago,Illinois,Midwest,2023-09-13T03:00:00Z,62.7,62.7,66.2,51.3,0,0,0,0,9.2,3.8,119,1018.3,9.9,68.5,0,0,0,10,Partially cloudy,partly-cloudy-night,obs
+Chicago,Illinois,Midwest,2023-09-13T04:00:00Z,61,61,71.35,51.6,0,0,0,0,9.2,0,0,1018.5,9.9,49.9,0,0,0,10,Partially cloudy,partly-cloudy-night,obs
+Chicago,Illinois,Midwest,2023-09-13T05:00:00Z,59.7,59.7,74.81,51.7,0,0,0,0,6.9,1.2,311,1018.7,9.9,51.3,0,0,0,10,Partially cloudy,partly-cloudy-night,obs
+Chicago,Illinois,Midwest,2023-09-13T06:00:00Z,58.5,58.5,79.16,52.1,0,0,0,0,6.9,3.4,254,1018.4,9.9,64.2,0,0,0,10,Partially cloudy,partly-cloudy-night,obs
+Chicago,Illinois,Midwest,2023-09-13T07:00:00Z,57.4,57.4,82.43,52.1,0,0,0,0,8.1,2.9,262,1018.5,9.9,65.6,0,0,0,10,Partially cloudy,partly-cloudy-night,obs
+Chicago,Illinois,Midwest,2023-09-13T08:00:00Z,55.8,55.8,88.09,52.3,0,0,0,0,9.2,0.8,314,1018.6,9.9,55,0,0,0,10,Partially cloudy,partly-cloudy-night,obs
+Chicago,Illinois,Midwest,2023-09-13T09:00:00Z,55.3,55.3,88.72,52.1,0,0,0,0,8.1,0,0,1018.4,9.9,81.2,0,0,0,10,Partially cloudy,partly-cloudy-night,obs
+Chicago,Illinois,Midwest,2023-09-13T10:00:00Z,54.1,54.1,89.73,51.2,0,0,0,0,9.2,0.6,41,1018.6,9.9,47.1,0,0,0,10,Partially cloudy,partly-cloudy-night,obs
+Chicago,Illinois,Midwest,2023-09-13T11:00:00Z,55.9,55.9,86.9,52.1,0,0,0,0,9.2,3.4,124,1018.8,9.9,64.2,0,0,0,10,Partially cloudy,partly-cloudy-night,obs
+Chicago,Illinois,Midwest,2023-09-13T12:00:00Z,56.5,56.5,85.11,52.1,0,0,0,0,9.2,3.8,98,1019,9.9,74.9,0,0,0,10,Partially cloudy,partly-cloudy-day,obs
+Chicago,Illinois,Midwest,2023-09-13T13:00:00Z,58.7,58.7,80.18,52.6,0,0,0,0,9.2,3,139,1019.2,9.9,66.6,27,0.1,0,10,Partially cloudy,partly-cloudy-day,obs
+Chicago,Illinois,Midwest,2023-09-13T14:00:00Z,61.2,61.2,75.51,53.4,0,0,0,0,8.1,4.6,266,1019.4,9.9,24,369,1.3,4,10,Partially cloudy,partly-cloudy-day,obs
+Chicago,Illinois,Midwest,2023-09-13T15:00:00Z,63.8,63.8,67.22,52.8,0,0,0,0,9.2,4.3,320,1019.5,9.9,38.3,113,0.4,1,10,Partially cloudy,partly-cloudy-day,obs
+Chicago,Illinois,Midwest,2023-09-13T16:00:00Z,65.6,65.6,63.47,52.9,0,0,0,0,10.3,2.3,346,1019.4,9.9,43.6,153,0.6,2,10,Partially cloudy,partly-cloudy-day,obs
+Chicago,Illinois,Midwest,2023-09-13T17:00:00Z,68.2,68.2,53.23,50.6,0,0,0,0,18.3,8.9,354,1019.3,9.9,74.9,86,0.3,1,10,Partially cloudy,partly-cloudy-day,obs
+Chicago,Illinois,Midwest,2023-09-13T18:00:00Z,67.4,67.4,59.49,52.8,0,0,0,0,12.8,8.7,23,1019.2,9.9,74.9,436,1.6,4,10,Partially cloudy,partly-cloudy-day,obs
+Chicago,Illinois,Midwest,2023-09-13T19:00:00Z,67,67,59.09,52.2,0,0,0,0,20.8,11.7,42,1018.9,9.9,81.2,119,0.4,1,10,Partially cloudy,partly-cloudy-day,obs
+Chicago,Illinois,Midwest,2023-09-13T20:00:00Z,67.5,67.5,56.1,51.3,0,0,0,0,19.7,10.6,44,1018.7,9.9,89,68,0.2,1,10,Partially cloudy,partly-cloudy-day,obs
+Chicago,Illinois,Midwest,2023-09-13T21:00:00Z,67.7,67.7,55.37,51.2,0,0,0,0,16.1,11.9,35,1018.7,9.9,77.6,33,0.1,0,10,Partially cloudy,partly-cloudy-day,obs
+Chicago,Illinois,Midwest,2023-09-13T22:00:00Z,67.5,67.5,54.61,50.5,0,0,0,0,18.3,13.3,43,1018.9,9.9,59.2,43,0.2,0,10,Partially cloudy,partly-cloudy-day,obs
+Chicago,Illinois,Midwest,2023-09-13T23:00:00Z,64.3,64.3,60.26,50.3,0,0,0,0,18.3,9.7,48,1019.1,9.9,29.3,92,0.3,1,10,Partially cloudy,partly-cloudy-day,obs
+Chicago,Illinois,Midwest,2023-09-14T00:00:00Z,63.9,63.9,63.6,51.3,0,0,0,0,16.1,8.3,66,1019.1,9.9,32.8,0,0,0,10,Partially cloudy,partly-cloudy-day,obs
+Chicago,Illinois,Midwest,2023-09-14T01:00:00Z,61.9,61.9,67.22,50.9,0,0,0,0,13.9,7,70,1019.6,9.9,24,0,0,0,10,Partially cloudy,partly-cloudy-night,obs
+Chicago,Illinois,Midwest,2023-09-14T02:00:00Z,61.1,61.1,69.92,51.2,0,0,0,0,13.9,6.8,65,1020,9.9,17.6,0,0,0,10,Clear,clear-night,obs
+Chicago,Illinois,Midwest,2023-09-14T03:00:00Z,60.4,60.4,71.5,51.2,0,0,0,0,9.2,4.8,59,1020.1,9.9,17.6,0,0,0,10,Clear,clear-night,obs
+Chicago,Illinois,Midwest,2023-09-14T04:00:00Z,58.2,58.2,76.9,51,0,0,0,0,8.1,1.1,356,1020.2,9.9,17.6,0,0,0,10,Clear,clear-night,obs
+Chicago,Illinois,Midwest,2023-09-14T05:00:00Z,56.6,56.6,80.86,50.7,0,0,0,0,6.9,4.4,333,1020.3,9.9,17.6,0,0,0,10,Clear,clear-night,obs
+Chicago,Illinois,Midwest,2023-09-14T06:00:00Z,55.9,55.9,83.76,51,0,0,0,0,6.9,0,0,1020.5,9.9,24,0,0,0,10,Partially cloudy,partly-cloudy-night,obs
+Chicago,Illinois,Midwest,2023-09-14T07:00:00Z,55.1,55.1,82.52,49.9,0,0,0,0,6.9,2.1,329,1020.6,9.9,24,0,0,0,10,Partially cloudy,partly-cloudy-night,obs
+Chicago,Illinois,Midwest,2023-09-14T08:00:00Z,54,54,85.84,49.9,0,0,0,0,5.8,3.2,332,1020.5,9.9,24,0,0,0,10,Partially cloudy,partly-cloudy-night,obs
+Chicago,Illinois,Midwest,2023-09-14T09:00:00Z,52.9,52.9,88.12,49.5,0,0,0,0,5.8,2.1,314,1020.8,9.9,24,0,0,0,10,Partially cloudy,partly-cloudy-night,obs
+Chicago,Illinois,Midwest,2023-09-14T10:00:00Z,53.2,53.2,87.24,49.5,0,0,0,0,5.8,0.8,356,1021,9.9,24,0,0,0,10,Partially cloudy,partly-cloudy-night,obs
+Chicago,Illinois,Midwest,2023-09-14T11:00:00Z,53.5,53.5,86.1,49.4,0,0,0,0,6.9,0,0,1021.6,9.9,24,0,0,0,10,Partially cloudy,partly-cloudy-night,obs
+Chicago,Illinois,Midwest,2023-09-14T12:00:00Z,52.3,52.3,87.71,48.7,0,0,0,0,6.9,2.1,283,1022,9.9,24,0,0,0,10,Partially cloudy,partly-cloudy-day,obs
+Chicago,Illinois,Midwest,2023-09-14T13:00:00Z,57.3,57.3,81.63,51.7,0,0,0,0,6.9,1.5,353,1022.5,9.9,24,23,0.1,0,10,Partially cloudy,partly-cloudy-day,obs
+Chicago,Illinois,Midwest,2023-09-14T14:00:00Z,62.3,62.3,71.81,53.1,0,0,0,0,5.8,1.8,2,1022.6,9.9,24,311,1.1,3,10,Partially cloudy,partly-cloudy-day,obs
+Chicago,Illinois,Midwest,2023-09-14T15:00:00Z,66.7,66.7,61.97,53.3,0,0,0,0,5.8,1.4,360,1022.8,9.9,24,54,0.2,1,10,Partially cloudy,partly-cloudy-day,obs
+Chicago,Illinois,Midwest,2023-09-14T16:00:00Z,68.2,68.2,56.54,52.2,0,0,0,0,6.9,3.2,337,1022.7,9.9,56.3,167,0.6,2,10,Partially cloudy,partly-cloudy-day,obs
+Chicago,Illinois,Midwest,2023-09-14T17:00:00Z,69,69,52.44,50.9,0,0,0,0,9.2,3.2,360,1022.5,9.9,65.6,472,1.7,5,10,Partially cloudy,partly-cloudy-day,obs
+Chicago,Illinois,Midwest,2023-09-14T18:00:00Z,70.1,70.1,50.75,51,0,0,0,0,10.3,6.4,67,1022.1,9.9,55,446,1.6,4,10,Partially cloudy,partly-cloudy-day,obs
+Chicago,Illinois,Midwest,2023-09-14T19:00:00Z,70.2,70.2,50.3,50.9,0,0,0,0,11.4,6,90,1021.8,9.9,47.1,153,0.6,2,10,Partially cloudy,partly-cloudy-day,obs
+Chicago,Illinois,Midwest,2023-09-14T20:00:00Z,71.3,71.3,48.26,50.8,0,0,0,0,12.8,9.9,86,1021.2,9.9,50,37,0.1,0,10,Partially cloudy,partly-cloudy-day,obs
+Chicago,Illinois,Midwest,2023-09-14T21:00:00Z,71,71,46.81,49.7,0,0,0,0,17.9,6.9,109,1021.1,9.9,50,33,0.1,0,10,Partially cloudy,partly-cloudy-day,obs
+Chicago,Illinois,Midwest,2023-09-14T22:00:00Z,70.2,70.2,47.15,49.1,0,0,0,0,12.8,8.1,95,1020.9,9.9,24,26,0.1,0,10,Partially cloudy,partly-cloudy-day,obs
+Chicago,Illinois,Midwest,2023-09-14T23:00:00Z,69.2,69.2,47.19,48.3,0,0,0,0,11.4,8,91,1020.9,9.9,24,107,0.4,1,10,Partially cloudy,partly-cloudy-day,obs
+Chicago,Illinois,Midwest,2023-09-15T00:00:00Z,66.6,66.6,54.15,49.5,0,0,0,0,10.3,8.4,100,1020.8,9.9,6.4,0,0,0,10,Clear,clear-day,obs
+Chicago,Illinois,Midwest,2023-09-15T01:00:00Z,65,65,59.62,50.6,0,0,0,0,9.2,6,105,1021.1,9.9,0,0,0,0,10,Clear,clear-night,obs
+Chicago,Illinois,Midwest,2023-09-15T02:00:00Z,63.8,63.8,64.9,51.7,0,0,0,0,9.2,4.8,98,1021.1,9.9,0,0,0,0,10,Clear,clear-night,obs
+Chicago,Illinois,Midwest,2023-09-15T03:00:00Z,63.6,63.6,65.24,51.7,0,0,0,0,8.1,2.1,108,1021.5,9.9,0,0,0,0,10,Clear,clear-night,obs
+Chicago,Illinois,Midwest,2023-09-15T04:00:00Z,61.5,61.5,72.48,52.6,0,0,0,0,8.1,0,0,1021.4,9.9,0,0,0,0,10,Clear,clear-night,obs
+Chicago,Illinois,Midwest,2023-09-15T05:00:00Z,59.1,59.1,76.56,51.7,0,0,0,0,8.1,0,0,1021.5,9.9,0,0,0,0,10,Clear,clear-night,obs
+Chicago,Illinois,Midwest,2023-09-15T06:00:00Z,56.8,56.8,81.52,51.2,0,0,0,0,8.1,0,0,1021.7,9.9,0,0,0,0,10,Clear,clear-night,obs
+Chicago,Illinois,Midwest,2023-09-15T07:00:00Z,57.4,57.4,80.43,51.4,0,0,0,0,8.1,0,0,1021.3,9.9,0,0,0,0,10,Clear,clear-night,obs
+Chicago,Illinois,Midwest,2023-09-15T08:00:00Z,56,56,83.49,51.1,0,0,0,0,8.1,0,0,1020.9,9.9,0,0,0,0,10,Clear,clear-night,obs
+Chicago,Illinois,Midwest,2023-09-15T09:00:00Z,55,55,84.49,50.4,0,0,0,0,8.1,0,0,1020.8,9.9,0,0,0,0,10,Clear,clear-night,obs
+Chicago,Illinois,Midwest,2023-09-15T10:00:00Z,54,54,86.5,50.1,0,0,0,0,8.1,1.2,43,1021,9.9,0,0,0,0,10,Clear,clear-night,obs
+Chicago,Illinois,Midwest,2023-09-15T11:00:00Z,55.8,55.8,78.69,49.3,0,0,0,0,9.2,6.5,149,1020.9,9.9,6.3,0,0,0,10,Clear,clear-night,obs
+Chicago,Illinois,Midwest,2023-09-15T12:00:00Z,55.7,55.7,77.82,48.9,0,0,0,0,9.2,5.1,152,1021.6,9.9,21.9,14,0.1,0,10,Partially cloudy,partly-cloudy-day,obs
+Chicago,Illinois,Midwest,2023-09-15T13:00:00Z,58.9,58.9,72.56,50.1,0,0,0,0,9.2,4.1,218,1021.7,9.9,6.3,119,0.4,1,10,Clear,clear-day,obs
+Chicago,Illinois,Midwest,2023-09-15T14:00:00Z,64.2,64.2,61.32,50.6,0,0,0,0,9.2,5.7,193,1021.4,9.9,15.6,399,1.4,4,10,Clear,clear-day,obs
+Chicago,Illinois,Midwest,2023-09-15T15:00:00Z,68.5,68.5,52.17,50.2,0,0,0,0,9.2,6.5,160,1021.2,9.9,15.6,70,0.3,1,10,Clear,clear-day,obs
+Chicago,Illinois,Midwest,2023-09-15T16:00:00Z,71.1,71.1,42.58,47.3,0,0,0,0,8.1,6.7,215,1021.1,9.9,21.9,72,0.3,1,10,Partially cloudy,partly-cloudy-day,obs
+Chicago,Illinois,Midwest,2023-09-15T17:00:00Z,73.2,73.2,40.38,47.7,0,0,0,0,8.1,8.4,212,1020.6,9.9,21.9,411,1.5,4,10,Partially cloudy,partly-cloudy-day,obs
+Chicago,Illinois,Midwest,2023-09-15T18:00:00Z,74.3,74.3,39,47.7,0,0,0,0,8.1,4.1,223,1020.3,9.9,21.9,412,1.5,4,10,Partially cloudy,partly-cloudy-day,obs
+Chicago,Illinois,Midwest,2023-09-15T19:00:00Z,75.2,75.2,38.32,48,0,0,0,0,8.1,5,174,1019.5,9.9,21.9,55,0.2,1,10,Partially cloudy,partly-cloudy-day,obs
+Chicago,Illinois,Midwest,2023-09-15T20:00:00Z,75.8,75.8,36.19,47.1,0,0,0,0,10.3,4.3,160,1019,9.9,28.2,44,0.2,0,10,Partially cloudy,partly-cloudy-day,obs
+Chicago,Illinois,Midwest,2023-09-15T21:00:00Z,76.6,76.6,34.73,46.7,0,0,0,0,10.3,4.7,100,1018.5,9.9,28.2,62,0.2,1,10,Partially cloudy,partly-cloudy-day,obs
+Chicago,Illinois,Midwest,2023-09-15T22:00:00Z,76.8,76.8,32.54,45.1,0,0,0,0,10.3,5.6,233,1018.1,9.9,21.9,28,0.1,0,10,Partially cloudy,partly-cloudy-day,obs
+Chicago,Illinois,Midwest,2023-09-15T23:00:00Z,75.7,75.7,32.66,44.3,0,0,0,0,10.3,1.7,28,1017.8,9.9,28.2,77,0.3,1,10,Partially cloudy,partly-cloudy-day,obs
+Chicago,Illinois,Midwest,2023-09-16T00:00:00Z,72.1,72.1,48.25,51.4,0,0,0,0,10.3,6.4,123,1018,9.9,53.3,6,0,0,10,Partially cloudy,partly-cloudy-day,obs
+Chicago,Illinois,Midwest,2023-09-16T01:00:00Z,69.4,69.4,58.24,54.1,0,0,0,0,10.3,8.2,134,1018,9.9,67.4,0,0,0,10,Partially cloudy,partly-cloudy-night,obs
+Chicago,Illinois,Midwest,2023-09-16T02:00:00Z,67.3,67.3,66,55.6,0,0,0,0,10.3,5.5,125,1018.2,9.9,77,0,0,0,10,Partially cloudy,partly-cloudy-night,obs
+Chicago,Illinois,Midwest,2023-09-16T03:00:00Z,66.9,66.9,68.82,56.3,0,0,0,0,10.3,5.1,134,1018,9.9,77,0,0,0,10,Partially cloudy,partly-cloudy-night,obs
+Chicago,Illinois,Midwest,2023-09-16T04:00:00Z,65.7,65.7,67.69,54.7,0,0,0,0,10.3,5.2,130,1018.1,9.9,77,0,0,0,10,Partially cloudy,partly-cloudy-night,obs
+Chicago,Illinois,Midwest,2023-09-16T05:00:00Z,65.1,65.1,67.34,54,0,0,0,0,10.3,5.2,167,1018,9.9,77,0,0,0,10,Partially cloudy,partly-cloudy-night,obs
+Chicago,Illinois,Midwest,2023-09-16T06:00:00Z,63.6,63.6,69.88,53.6,0,0,0,0,10.3,4.7,205,1017.8,9.9,77,0,0,0,10,Partially cloudy,partly-cloudy-night,obs
+Chicago,Illinois,Midwest,2023-09-16T07:00:00Z,63,63,66.81,51.8,0,0,0,0,13.9,4.4,63,1017.5,9.9,77,0,0,0,10,Partially cloudy,partly-cloudy-night,obs
+Chicago,Illinois,Midwest,2023-09-16T08:00:00Z,62.4,62.4,65.37,50.6,0,0,0,0,13.9,3.3,155,1017.3,9.9,89.5,0,0,0,10,Partially cloudy,partly-cloudy-night,obs
+Chicago,Illinois,Midwest,2023-09-16T09:00:00Z,61.7,61.7,66.56,50.5,0,0,0,0,13.9,5.3,171,1017,9.9,90.7,0,0,0,10,Overcast,cloudy,obs
+Chicago,Illinois,Midwest,2023-09-16T10:00:00Z,61.1,61.1,68.16,50.5,0,0,0,0,12.8,4.8,214,1016.7,9.9,87.6,0,0,0,10,Partially cloudy,partly-cloudy-night,obs
+Chicago,Illinois,Midwest,2023-09-16T11:00:00Z,61.1,61.1,69.08,50.9,0,0,0,0,12.8,4.3,112,1016.9,9.9,89.5,0,0,0,10,Partially cloudy,partly-cloudy-night,obs
+Chicago,Illinois,Midwest,2023-09-16T12:00:00Z,60.7,60.7,69.74,50.7,0,0,0,0,12.8,4.3,254,1017,9.9,83.2,9,0,0,10,Partially cloudy,partly-cloudy-day,obs
+Chicago,Illinois,Midwest,2023-09-16T13:00:00Z,61.3,61.3,69.4,51.2,0,0,0,0,11.4,4.5,230,1017.5,9.9,92.5,19,0.1,0,10,Overcast,cloudy,obs
+Chicago,Illinois,Midwest,2023-09-16T14:00:00Z,63.3,63.3,66.63,52,0,0,0,0,11.4,4.5,214,1017.7,9.9,100,52,0.2,1,10,Overcast,cloudy,obs
+Chicago,Illinois,Midwest,2023-09-16T15:00:00Z,65.6,65.6,64.67,53.4,0,0,0,0,10.3,4.5,229,1017.7,9.9,100,100,0.4,1,10,Overcast,cloudy,obs
+Chicago,Illinois,Midwest,2023-09-16T16:00:00Z,67.3,67.3,60.95,53.4,0,0,0,0,9.2,6.2,236,1017.6,9.9,100,70,0.3,1,10,Overcast,cloudy,obs
+Chicago,Illinois,Midwest,2023-09-16T17:00:00Z,70.2,70.2,56.49,54.1,0,0,0,0,8.1,5,341,1017.3,9.9,100,56,0.2,1,10,Overcast,cloudy,obs
+Chicago,Illinois,Midwest,2023-09-16T18:00:00Z,68.7,68.7,61.36,54.9,0.003,100,0,0,6.9,2.1,335,1017,9.9,100,69,0.2,1,10,"Rain, Overcast",rain,obs
+Chicago,Illinois,Midwest,2023-09-16T19:00:00Z,68.6,68.6,64.94,56.3,0,0,0,0,8.1,4.7,257,1016.8,9.9,98.5,54,0.2,1,10,Overcast,cloudy,obs
+Chicago,Illinois,Midwest,2023-09-16T20:00:00Z,71,71,59.22,56,0,22,0,0,9.2,8.1,230,1016,10.1,91,192,0.7,2,10,Overcast,cloudy,fcst
+Chicago,Illinois,Midwest,2023-09-16T21:00:00Z,71,71,61.18,56.9,0,22,0,0,9.2,8.1,230,1016,10.1,92,144,0.5,1,10,Overcast,cloudy,fcst
+Chicago,Illinois,Midwest,2023-09-16T22:00:00Z,70.1,70.1,63.08,56.9,0,23,0,0,9.2,8.1,220,1016,10.1,92,96,0.3,1,10,Overcast,cloudy,fcst
+Chicago,Illinois,Midwest,2023-09-16T23:00:00Z,70.1,70.1,65.58,58,0,25,0,0,8.1,6.9,190,1015,10.1,92,57,0.2,1,10,Overcast,cloudy,fcst
+Chicago,Illinois,Midwest,2023-09-17T00:00:00Z,69,69,68.05,58,0.012,29,0,0,8.1,6.9,180,1015,10.1,91,15,0.1,0,10,Overcast,cloudy,fcst
+Chicago,Illinois,Midwest,2023-09-17T01:00:00Z,67.9,67.9,72.93,58.9,0,36,0,0,8.1,6.9,190,1015,10.1,90,0,0,0,10,Partially cloudy,partly-cloudy-night,fcst
+Chicago,Illinois,Midwest,2023-09-17T02:00:00Z,67.9,67.9,70.62,58,0,39,0,0,6.9,5.8,230,1016,10.1,88,0,0,0,10,Partially cloudy,partly-cloudy-night,fcst
+Chicago,Illinois,Midwest,2023-09-17T03:00:00Z,67,67,72.84,58,0,43,0,0,6.9,5.8,240,1015,10.1,86,0,0,0,10,Partially cloudy,partly-cloudy-night,fcst
+Chicago,Illinois,Midwest,2023-09-17T04:00:00Z,65.9,65.9,78.09,58.9,0.012,43,0,0,5.8,5.8,250,1015,9,85,0,0,0,10,Partially cloudy,partly-cloudy-night,fcst
+Chicago,Illinois,Midwest,2023-09-17T05:00:00Z,65,65,80.58,58.9,0.039,45,0,0,5.8,5.8,260,1015,4,83,0,0,0,10,Partially cloudy,partly-cloudy-night,fcst
+Chicago,Illinois,Midwest,2023-09-17T06:00:00Z,63.9,63.9,83.67,58.9,0.012,44,0,0,5.8,5.8,260,1016,3,81,0,0,0,10,Partially cloudy,partly-cloudy-night,fcst
+Chicago,Illinois,Midwest,2023-09-17T07:00:00Z,63.9,63.9,83.67,58.9,0.02,44,0,0,6.9,6.9,280,1016,4.9,82,0,0,0,10,Partially cloudy,partly-cloudy-night,fcst
+Chicago,Illinois,Midwest,2023-09-17T08:00:00Z,63.1,63.1,86.35,58.9,0,44,0,0,8.1,6.9,320,1015,5.9,82,0,0,0,10,Partially cloudy,partly-cloudy-night,fcst
+Chicago,Illinois,Midwest,2023-09-17T09:00:00Z,62,62,93.22,60,0,50,0,0,9.2,8.1,330,1014,6.9,83,0,0,0,10,"Rain, Partially cloudy",rain,fcst
+Chicago,Illinois,Midwest,2023-09-17T10:00:00Z,63.1,63.1,86.35,58.9,0,50,0,0,9.2,8.1,340,1014,7.9,82,0,0,0,10,"Rain, Partially cloudy",rain,fcst
+Chicago,Illinois,Midwest,2023-09-17T11:00:00Z,62,62,89.7,58.9,0.02,50,0,0,9.2,8.1,340,1015,7.9,81,0,0,0,10,"Rain, Partially cloudy",rain,fcst
+Chicago,Illinois,Midwest,2023-09-17T12:00:00Z,62,62,89.7,58.9,0.15,52,0,0,9.2,8.1,340,1015,10.1,80,6,0,0,10,"Rain, Partially cloudy",rain,fcst
+Chicago,Illinois,Midwest,2023-09-17T13:00:00Z,63.9,63.9,83.67,58.9,0.012,52,0,0,10.3,8.1,350,1015,10.1,77,100,0.4,1,10,"Rain, Partially cloudy",rain,fcst
+Chicago,Illinois,Midwest,2023-09-17T14:00:00Z,65,65,83.74,60,0,52,0,0,12.8,10.3,350,1015,10.1,74,184,0.7,2,10,"Rain, Partially cloudy",rain,fcst
+Chicago,Illinois,Midwest,2023-09-17T15:00:00Z,65.9,65.9,81.16,60,0.012,52,0,0,15,11.4,360,1015,10.1,70,131,0.5,1,10,"Rain, Partially cloudy",rain,fcst
+Chicago,Illinois,Midwest,2023-09-17T16:00:00Z,65.9,65.9,81.16,60,0.02,52,0,0,16.1,12.8,0,1015,10.1,71,250,0.9,3,10,"Rain, Partially cloudy",rain,fcst
+Chicago,Illinois,Midwest,2023-09-17T17:00:00Z,65.9,65.9,81.16,60,0.039,52,0,0,18.3,13.9,10,1015,10.1,71,275,1,3,10,"Rain, Partially cloudy",rain,fcst
+Chicago,Illinois,Midwest,2023-09-17T18:00:00Z,65.9,65.9,81.16,60,0.169,32,0,0,19.5,15,10,1014,10.1,72,298,1.1,3,10,Partially cloudy,partly-cloudy-day,fcst
+Chicago,Illinois,Midwest,2023-09-17T19:00:00Z,65.9,65.9,78.09,58.9,0.012,32,0,0,21.9,17.2,10,1014,10.1,67,381,1.4,4,10,Partially cloudy,partly-cloudy-day,fcst
+Chicago,Illinois,Midwest,2023-09-17T20:00:00Z,65.9,65.9,78.09,58.9,0.012,32,0,0,25.3,19.5,10,1015,10.1,61,361,1.3,4,10,Partially cloudy,partly-cloudy-day,fcst
+Chicago,Illinois,Midwest,2023-09-17T21:00:00Z,65,65,80.58,58.9,0.051,32,0,0,26.4,20.8,10,1015,10.1,56,292,1.1,3,10,Partially cloudy,partly-cloudy-day,fcst
+Chicago,Illinois,Midwest,2023-09-17T22:00:00Z,65,65,80.58,58.9,0,32,0,0,26.4,20.8,10,1015,10.1,55,231,0.8,2,10,Partially cloudy,partly-cloudy-day,fcst
+Chicago,Illinois,Midwest,2023-09-17T23:00:00Z,63.9,63.9,83.67,58.9,0,32,0,0,25.3,19.5,10,1016,10.1,54,157,0.6,2,10,Partially cloudy,partly-cloudy-day,fcst
+Chicago,Illinois,Midwest,2023-09-18T00:00:00Z,63.9,63.9,81.02,58,0,6,0,0,24.2,18.3,10,1016,10.1,26,106,0.4,0,10,Partially cloudy,partly-cloudy-night,fcst
+Chicago,Illinois,Midwest,2023-09-18T01:00:00Z,63.1,63.1,83.61,58,0,6,0,0,24.2,18.3,10,1016,10.1,21,0,0,0,10,Partially cloudy,partly-cloudy-night,fcst
+Chicago,Illinois,Midwest,2023-09-18T02:00:00Z,63.1,63.1,80.43,56.9,0,6,0,0,25.3,18.3,10,1016,10.1,17,0,0,0,10,Clear,clear-night,fcst
+Chicago,Illinois,Midwest,2023-09-18T03:00:00Z,63.1,63.1,80.43,56.9,0,6,0,0,25.3,18.3,10,1016,10.1,12,0,0,0,10,Clear,clear-night,fcst
+Chicago,Illinois,Midwest,2023-09-18T04:00:00Z,62,62,83.54,56.9,0,6,0,0,25.3,18.3,10,1017,10.1,12,0,0,0,10,Clear,clear-night,fcst
+Chicago,Illinois,Midwest,2023-09-18T05:00:00Z,62,62,80.87,56,0,6,0,0,25.3,18.3,10,1017,10.1,11,0,0,0,10,Clear,clear-night,fcst
+Chicago,Illinois,Midwest,2023-09-18T06:00:00Z,62,62,80.87,56,0,16,0,0,24.2,18.3,10,1016,10.1,11,0,0,0,10,Clear,clear-night,fcst
+Chicago,Illinois,Midwest,2023-09-18T07:00:00Z,61.6,61.6,81.91,56,0,16,0,0,23,17.2,10,1017,10.1,12.3,0,0,0,10,Clear,clear-night,fcst
+Chicago,Illinois,Midwest,2023-09-18T08:00:00Z,61.4,61.4,82.43,56,0,16,0,0,21.9,16.1,10,1017,10.1,13.7,0,0,0,10,Clear,clear-night,fcst
+Chicago,Illinois,Midwest,2023-09-18T09:00:00Z,61.1,61.1,83.49,56,0,16,0,0,20.8,15,10,1017,10.1,15,0,0,0,10,Clear,clear-night,fcst
+Chicago,Illinois,Midwest,2023-09-18T10:00:00Z,60.7,60.7,84.56,56,0,16,0,0,18.1,13.4,120,1017,10.1,21.3,3,0,0,10,Partially cloudy,partly-cloudy-night,fcst
+Chicago,Illinois,Midwest,2023-09-18T11:00:00Z,60.3,60.3,85.65,56,0,16,0,0,15.4,11.9,230,1018,10.1,27.7,7,0,0,10,Partially cloudy,partly-cloudy-night,fcst
+Chicago,Illinois,Midwest,2023-09-18T12:00:00Z,60,60,86.75,56,0,16,0,0,12.8,10.3,340,1017,10.1,34,10,0,0,10,Partially cloudy,partly-cloudy-day,fcst
+Chicago,Illinois,Midwest,2023-09-18T13:00:00Z,61.2,61.2,82.96,56,0,16,0,0,13.2,10.3,340,1018,10.1,30.3,64,0.2,1,10,Partially cloudy,partly-cloudy-day,fcst
+Chicago,Illinois,Midwest,2023-09-18T14:00:00Z,62.7,62.7,78.85,56,0,16,0,0,13.4,10.3,340,1018,10.1,26.7,118,0.4,1,10,Partially cloudy,partly-cloudy-day,fcst
+Chicago,Illinois,Midwest,2023-09-18T15:00:00Z,63.9,63.9,75.44,56,0,16,0,0,13.9,10.3,340,1019,10.1,23,172,0.6,2,10,Partially cloudy,partly-cloudy-day,fcst
+Chicago,Illinois,Midwest,2023-09-18T16:00:00Z,64.3,64.3,73.53,55.7,0,1,0,0,14.5,10.7,230,1018,10.1,34.3,314,1.1,3,10,Partially cloudy,partly-cloudy-day,fcst
+Chicago,Illinois,Midwest,2023-09-18T17:00:00Z,64.7,64.7,71.67,55.3,0,1,0,0,15.4,11,120,1018,10.1,45.7,455,1.6,5,10,Partially cloudy,partly-cloudy-day,fcst
+Chicago,Illinois,Midwest,2023-09-18T18:00:00Z,65,65,69.85,54.9,0,1,0,0,16.1,11.4,10,1018,10.1,57,597,2.1,6,10,Partially cloudy,partly-cloudy-day,fcst
+Chicago,Illinois,Midwest,2023-09-18T19:00:00Z,65,65,68.94,54.6,0,1,0,0,15.4,11.9,23.3,1018,10.1,41.3,532,1.9,5,10,Partially cloudy,partly-cloudy-day,fcst
+Chicago,Illinois,Midwest,2023-09-18T20:00:00Z,65,65,68.49,54.4,0,1,0,0,14.5,12.3,36.7,1018,10.1,25.7,466,1.7,5,10,Partially cloudy,partly-cloudy-day,fcst
+Chicago,Illinois,Midwest,2023-09-18T21:00:00Z,65,65,67.6,54.1,0,1,0,0,13.9,12.8,50,1018,10.1,10,401,1.4,4,10,Clear,clear-day,fcst
+Chicago,Illinois,Midwest,2023-09-18T22:00:00Z,64.3,64.3,70.24,54.4,0,0,0,0,13.4,12.3,60,1017,10.1,10,320,1.2,3,10,Clear,clear-day,fcst
+Chicago,Illinois,Midwest,2023-09-18T23:00:00Z,63.8,63.8,72.05,54.6,0,0,0,0,13.2,11.9,70,1018,10.1,10,238,0.9,2,10,Clear,clear-day,fcst
+Chicago,Illinois,Midwest,2023-09-19T00:00:00Z,63.1,63.1,74.86,54.9,0,0,0,0,12.8,11.4,80,1016,10.1,10,157,0.6,0,10,Clear,clear-night,fcst
+Chicago,Illinois,Midwest,2023-09-19T01:00:00Z,63.2,63.2,75.86,55.5,0,0,0,0,9.2,8.7,90,1017,10.1,15.7,105,0.4,0,10,Clear,clear-night,fcst
+Chicago,Illinois,Midwest,2023-09-19T02:00:00Z,63.1,63.1,76.35,55.5,0,0,0,0,9.2,8.3,100,1017,10.1,13.3,52,0.2,0,10,Clear,clear-night,fcst
+Chicago,Illinois,Midwest,2023-09-19T03:00:00Z,63.1,63.1,76.85,55.7,0,0,0,0,8.9,8.1,110,1017,10.1,11,0,0,0,10,Clear,clear-night,fcst
+Chicago,Illinois,Midwest,2023-09-19T04:00:00Z,62.5,62.5,77.81,55.5,0,0,0,0,8.9,8.1,120,1017,10.1,13,0,0,0,10,Clear,clear-night,fcst

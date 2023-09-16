@@ -77,7 +77,7 @@ cities = readr::read_csv(here::here("data/cities.csv")) |>
 daily = map_dfr(cities, c("result","days"))
 hourly = map_dfr(cities, c("result","hours"))
 
-readr::write_csv(daily, here::here("data/daily_weather.csv"))
+#readr::write_csv(daily, here::here("data/daily_weather.csv"))
 readr::write_csv(hourly, here::here("data/weather.csv"))
 
 hourly |>

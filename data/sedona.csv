@@ -1,0 +1,193 @@
+city,state,region,time,temp,feelslike,humidity,dew,precip,precipprob,snow,snowdepth,windgust,windspeed,winddir,pressure,visibility,cloudcover,solarradiation,solarenergy,uvindex,severerisk,conditions,icon,source
+Sedona,Arizona,West,2023-09-11T07:00:00Z,71.4,71.4,46.68,50,0,0,0,0,19.7,13.7,39,1020.6,9.9,88.3,0,0,0,10,Partially cloudy,partly-cloudy-night,obs
+Sedona,Arizona,West,2023-09-11T08:00:00Z,71.4,71.4,46.69,50,0,0,0,0,12.8,11.9,39,1020.2,9.9,88.5,0,0,0,10,Partially cloudy,partly-cloudy-night,obs
+Sedona,Arizona,West,2023-09-11T09:00:00Z,70.6,70.6,48.04,50,0,0,0,0,11.4,8.4,34,1020.1,9.9,88.8,0,0,0,10,Partially cloudy,partly-cloudy-night,obs
+Sedona,Arizona,West,2023-09-11T10:00:00Z,69.6,69.6,49.61,50,0,0,0,0,9.2,10.7,35,1019.6,9.9,27.1,0,0,0,10,Partially cloudy,partly-cloudy-night,obs
+Sedona,Arizona,West,2023-09-11T11:00:00Z,69.6,69.6,49.63,50,0,0,0,0,9.2,12,40,1019.6,9.9,68.2,0,0,0,10,Partially cloudy,partly-cloudy-night,obs
+Sedona,Arizona,West,2023-09-11T12:00:00Z,67.8,67.8,52.77,50,0,0,0,0,9.2,13.2,35,1019.6,9.9,88.8,0,0,0,10,Partially cloudy,partly-cloudy-night,obs
+Sedona,Arizona,West,2023-09-11T13:00:00Z,69.6,69.6,49.65,50,0,0,0,0,8.1,11.9,40,1020.1,9.9,99.9,0,0,0,10,Overcast,cloudy,obs
+Sedona,Arizona,West,2023-09-11T14:00:00Z,69.6,69.6,49.63,50,0,0,0,0,6.9,7.5,65,1020.4,9.9,94.5,106,0.4,1,10,Overcast,cloudy,obs
+Sedona,Arizona,West,2023-09-11T15:00:00Z,71.4,71.4,48.31,50.8,0,0,0,0,6.9,6.3,74,1021,9.9,99.8,278,1,3,10,Overcast,cloudy,obs
+Sedona,Arizona,West,2023-09-11T16:00:00Z,77.7,77.7,40.43,51.8,0,0,0,0,9.2,5.8,114,1020.9,9.9,70.2,483,1.7,5,10,Partially cloudy,partly-cloudy-day,obs
+Sedona,Arizona,West,2023-09-11T17:00:00Z,82.3,80.7,30.62,48.3,0,0,0,0,13.9,4,348,1021.1,9.9,0.8,646,2.3,6,10,Clear,clear-day,obs
+Sedona,Arizona,West,2023-09-11T18:00:00Z,87.7,85,27.41,50,0,0,0,0,21.9,9,127,1020.8,9.9,0.5,763,2.7,8,10,Clear,clear-day,obs
+Sedona,Arizona,West,2023-09-11T19:00:00Z,88.6,85.8,26.6,50,0,0,0,0,17.3,6.9,108,1020.1,9.9,0.3,897,3.2,9,10,Clear,clear-day,obs
+Sedona,Arizona,West,2023-09-11T20:00:00Z,87.7,85.2,28.34,50.9,0,0,0,0,24.9,8.1,211,1019.6,9.9,68.9,773,2.8,8,10,Partially cloudy,partly-cloudy-day,obs
+Sedona,Arizona,West,2023-09-11T21:00:00Z,89.5,86.5,25.07,49.1,0,0,0,0,19.8,11.4,211,1019.2,9.9,49.8,637,2.3,6,10,Partially cloudy,partly-cloudy-day,obs
+Sedona,Arizona,West,2023-09-11T22:00:00Z,89.5,86.3,24.2,48.2,0,0,0,0,16.2,10.3,196,1018.5,9.9,0.4,500,1.8,5,10,Clear,clear-day,obs
+Sedona,Arizona,West,2023-09-11T23:00:00Z,87.8,84.6,23.12,45.5,0,0,0,0,16.2,11.1,229,1018.3,9.9,42.2,412,1.5,4,10,Partially cloudy,partly-cloudy-day,obs
+Sedona,Arizona,West,2023-09-12T00:00:00Z,83.3,81,24.97,43.8,0,0,0,0,20.8,13.8,264,1018.4,9.9,0,319,1.1,3,10,Clear,clear-day,obs
+Sedona,Arizona,West,2023-09-12T01:00:00Z,80.5,79.4,28.17,44.6,0,0,0,0,19.5,11.6,260,1018.6,9.9,0,66,0.2,1,10,Clear,clear-day,obs
+Sedona,Arizona,West,2023-09-12T02:00:00Z,78.7,78.7,32,46.4,0,0,0,0,18.3,12.1,289,1019.1,9.9,0,11,0,0,10,Clear,clear-night,obs
+Sedona,Arizona,West,2023-09-12T03:00:00Z,76.9,76.9,33.96,46.4,0,0,0,0,15,5.3,299,1019.8,9.9,0,7,0,0,10,Clear,clear-night,obs
+Sedona,Arizona,West,2023-09-12T04:00:00Z,76.9,76.9,33.98,46.4,0,0,0,0,13.9,5.3,291,1019.6,9.9,0,5,0,0,10,Clear,clear-night,obs
+Sedona,Arizona,West,2023-09-12T05:00:00Z,75.1,75.1,36.1,46.4,0,0,0,0,11.4,5.2,251,1019.9,9.9,0,4,0,0,10,Clear,clear-night,obs
+Sedona,Arizona,West,2023-09-12T06:00:00Z,73.3,73.3,38.34,46.4,0,0,0,0,10.3,5.3,294,1020.2,9.9,0.6,4,0,0,10,Clear,clear-night,obs
+Sedona,Arizona,West,2023-09-12T07:00:00Z,72.5,72.5,39.45,46.4,0,0,0,0,8.1,0,357,1019.9,9.9,0.6,0,0,0,10,Clear,clear-night,obs
+Sedona,Arizona,West,2023-09-12T08:00:00Z,71.5,71.5,40.75,46.4,0,0,0,0,6.9,0,357,1019.9,9.9,1.1,0,0,0,10,Clear,clear-night,obs
+Sedona,Arizona,West,2023-09-12T09:00:00Z,71.5,71.5,43.57,48.2,0,0,0,0,5.8,0.1,357,1020.2,9.9,93.7,0,0,0,10,Overcast,cloudy,obs
+Sedona,Arizona,West,2023-09-12T10:00:00Z,71.5,71.5,40.76,46.4,0,0,0,0,8.1,0.1,358,1019.7,9.9,100,0,0,0,10,Overcast,cloudy,obs
+Sedona,Arizona,West,2023-09-12T11:00:00Z,71.5,71.5,43.6,48.2,0,0,0,0,8.1,0,357,1019.6,9.9,100,0,0,0,10,Overcast,cloudy,obs
+Sedona,Arizona,West,2023-09-12T12:00:00Z,70.6,70.6,44.9,48.2,0,0,0,0,9.2,3.3,6,1019.6,9.9,98.9,0,0,0,10,Overcast,cloudy,obs
+Sedona,Arizona,West,2023-09-12T13:00:00Z,70.5,70.5,45.06,48.2,0,0,0,0,9.2,3.1,40,1019.9,9.9,26.3,0,0,0,10,Partially cloudy,partly-cloudy-night,obs
+Sedona,Arizona,West,2023-09-12T14:00:00Z,69.7,69.7,47.83,49,0,0,0,0,9.2,0.1,357,1020.6,9.9,88.4,70,0.3,1,10,Partially cloudy,partly-cloudy-day,obs
+Sedona,Arizona,West,2023-09-12T15:00:00Z,72.3,72.3,46.92,50.9,0,0,0,0,11.4,0.1,357,1020.8,9.9,99.9,176,0.6,2,10,Overcast,cloudy,obs
+Sedona,Arizona,West,2023-09-12T16:00:00Z,74.1,74.1,45.71,51.9,0,0,0,0,11.4,1.8,112,1020.9,9.9,93.7,283,1,3,10,Overcast,cloudy,obs
+Sedona,Arizona,West,2023-09-12T17:00:00Z,76.9,76.9,37.72,49.1,0,0,0,0,13.9,7.5,174,1021.4,9.9,100,340,1.2,3,10,Overcast,cloudy,obs
+Sedona,Arizona,West,2023-09-12T18:00:00Z,76.1,76.1,39.97,50,0,0,0,0,17.3,11.4,200,1021.6,9.9,100,460,1.7,5,10,Overcast,cloudy,obs
+Sedona,Arizona,West,2023-09-12T19:00:00Z,73.3,73.3,43.9,50,0,0,0,0,15,7.5,196,1021.9,9.9,100,511,1.8,5,10,Overcast,cloudy,obs
+Sedona,Arizona,West,2023-09-12T20:00:00Z,69.8,69.8,58.37,54.5,0,0,0,0,21.9,2.3,350,1021.3,9.9,100,44,0.2,0,10,Overcast,cloudy,obs
+Sedona,Arizona,West,2023-09-12T21:00:00Z,74.9,74.9,47.39,53.6,0,0,0,0,15,5.8,15,1020.1,9.9,95.3,274,1,3,10,Overcast,cloudy,obs
+Sedona,Arizona,West,2023-09-12T22:00:00Z,77.7,77.7,41.83,52.7,0,0,0,0,16.1,8,359,1019.5,9.9,69.1,229,0.8,2,10,Partially cloudy,partly-cloudy-day,obs
+Sedona,Arizona,West,2023-09-12T23:00:00Z,76.9,76.9,41.62,51.8,0,0,0,0,16.1,5.3,257,1019.2,9.9,92.8,435,1.6,4,10,Overcast,cloudy,obs
+Sedona,Arizona,West,2023-09-13T00:00:00Z,74.3,74.3,49.99,54.4,0,0,0,0,20.8,14.9,145,1018.5,9.9,50.5,279,1,3,10,Partially cloudy,partly-cloudy-day,obs
+Sedona,Arizona,West,2023-09-13T01:00:00Z,71.5,71.5,58.68,56.3,0,0,0,0,13.9,9.1,150,1018.5,9.9,1,49,0.2,0,10,Clear,clear-day,obs
+Sedona,Arizona,West,2023-09-13T02:00:00Z,69.7,69.7,60.33,55.4,0,0,0,0,11.4,6.2,169,1019.1,9.9,0.9,5,0,0,10,Clear,clear-night,obs
+Sedona,Arizona,West,2023-09-13T03:00:00Z,68.8,68.8,62.18,55.4,0,0,0,0,10.3,0,0,1019.4,9.9,0.8,0,0,0,10,Clear,clear-night,obs
+Sedona,Arizona,West,2023-09-13T04:00:00Z,67.9,67.9,64.22,55.4,0,0,0,0,9.2,3.7,273,1020.2,9.9,69.1,0,0,0,10,Partially cloudy,partly-cloudy-night,obs
+Sedona,Arizona,West,2023-09-13T05:00:00Z,65.3,65.3,79.91,58.9,0,0,0,0,9.2,0.1,2,1020.6,9.9,95.3,0,0,0,10,Overcast,cloudy,obs
+Sedona,Arizona,West,2023-09-13T06:00:00Z,66.1,66.1,75.35,58.1,0,0,0,0,9.2,5.8,35,1020.6,9.9,50.5,0,0,0,10,Partially cloudy,partly-cloudy-night,obs
+Sedona,Arizona,West,2023-09-13T07:00:00Z,65.3,65.3,70.31,55.4,0,0,0,0,9.2,4.6,24,1020.3,9.9,68.9,0,0,0,10,Partially cloudy,partly-cloudy-night,obs
+Sedona,Arizona,West,2023-09-13T08:00:00Z,65.2,65.2,68,54.4,0,0,0,0,8.1,0,0,1020.2,9.9,88.2,0,0,0,10,Partially cloudy,partly-cloudy-night,obs
+Sedona,Arizona,West,2023-09-13T09:00:00Z,62.5,62.5,88.02,58.9,0,0,0,0,8.1,0,1,1020,9.9,0.1,0,0,0,10,Clear,clear-night,obs
+Sedona,Arizona,West,2023-09-13T10:00:00Z,60.7,60.7,93.73,58.9,0,0,0,0,9.2,4.6,330,1020,9.9,0.2,0,0,0,10,Clear,clear-night,obs
+Sedona,Arizona,West,2023-09-13T11:00:00Z,61.5,61.5,70.26,51.7,0,0,0,0,8.1,9.1,25,1019.6,9.9,0.2,0,0,0,3,Clear,clear-night,obs
+Sedona,Arizona,West,2023-09-13T12:00:00Z,61.6,61.6,65.52,49.9,0,0,0,0,8.1,9.7,30,1019.8,9.9,0.2,0,0,0,10,Clear,clear-night,obs
+Sedona,Arizona,West,2023-09-13T13:00:00Z,60.7,60.7,69.9,50.8,0,0,0,0,8.1,8.6,25,1020.1,9.9,23.2,0,0,0,3,Partially cloudy,partly-cloudy-night,obs
+Sedona,Arizona,West,2023-09-13T14:00:00Z,62.5,62.5,67.96,51.7,0,0,0,0,5.8,9.2,29,1020.3,9.9,26.4,16,0.1,0,10,Partially cloudy,partly-cloudy-day,obs
+Sedona,Arizona,West,2023-09-13T15:00:00Z,67.1,67.1,57.99,51.8,0,0,0,0,5.8,1.8,182,1020.4,9.9,23.2,23,0.1,0,10,Partially cloudy,partly-cloudy-day,obs
+Sedona,Arizona,West,2023-09-13T16:00:00Z,71.5,71.5,53.15,53.6,0,0,0,0,6.9,4.7,359,1020.8,9.9,0,306,1.1,3,10,Clear,clear-day,obs
+Sedona,Arizona,West,2023-09-13T17:00:00Z,74.1,74.1,51.99,55.3,0,0,0,0,9.2,2.3,276,1020.9,9.9,26.9,585,2.1,6,10,Partially cloudy,partly-cloudy-day,obs
+Sedona,Arizona,West,2023-09-13T18:00:00Z,76.9,76.9,51.85,57.9,0,0,0,0,11.4,9.6,160,1020.4,9.9,93.1,773,2.8,8,30,Overcast,cloudy,obs
+Sedona,Arizona,West,2023-09-13T19:00:00Z,79.6,79.6,49.22,58.9,0,0,0,0,16.1,8.6,141,1019.7,9.9,68.5,801,2.9,8,30,Partially cloudy,partly-cloudy-day,obs
+Sedona,Arizona,West,2023-09-13T20:00:00Z,76.1,76.1,53.68,58.1,0,0,0,0,23,8.2,189,1019.2,9.9,50.4,555,2,6,30,Partially cloudy,partly-cloudy-day,obs
+Sedona,Arizona,West,2023-09-13T21:00:00Z,76.8,76.8,50.64,57.1,0,0,0,0,30.3,5.4,146,1018.4,9.9,46.8,274,1,3,10,Partially cloudy,partly-cloudy-day,obs
+Sedona,Arizona,West,2023-09-13T22:00:00Z,76.9,76.9,45.7,54.4,0,0,0,0,24.3,7.1,188,1017.9,9.9,49.6,579,2.1,6,3,Partially cloudy,partly-cloudy-day,obs
+Sedona,Arizona,West,2023-09-13T23:00:00Z,74.3,74.3,58.64,58.9,0,0,0,0,25.3,3.8,229,1017.4,9.9,27.1,175,0.6,2,10,Partially cloudy,partly-cloudy-day,obs
+Sedona,Arizona,West,2023-09-14T00:00:00Z,73.3,73.3,56.82,57.1,0,0,0,0,11.4,0.1,357,1017.9,9.9,50.4,97,0.3,1,10,Partially cloudy,partly-cloudy-day,obs
+Sedona,Arizona,West,2023-09-14T01:00:00Z,71.5,71.5,64.64,58.9,0,0,0,0,10.3,6.3,341,1017.7,9.9,70.2,25,0.1,0,10,Partially cloudy,partly-cloudy-day,obs
+Sedona,Arizona,West,2023-09-14T02:00:00Z,66,66,69.13,55.6,0.012,100,0,0,9.2,3.7,211,1017.9,8.5,99.7,5,0,0,10,"Rain, Overcast",rain,obs
+Sedona,Arizona,West,2023-09-14T03:00:00Z,62.5,62.5,82.17,57,0.01,100,0,0,9.2,4.6,272,1019.6,9.9,69.6,0,0,0,10,"Rain, Partially cloudy",rain,obs
+Sedona,Arizona,West,2023-09-14T04:00:00Z,63.5,63.5,79.51,57,0,0,0,0,9.2,6,297,1019.9,9.9,0.4,0,0,0,10,Clear,clear-night,obs
+Sedona,Arizona,West,2023-09-14T05:00:00Z,62.5,62.5,85.34,58.1,0,0,0,0,8.1,0,0,1019.9,9.9,0.3,0,0,0,10,Clear,clear-night,obs
+Sedona,Arizona,West,2023-09-14T06:00:00Z,62.5,62.5,79.68,56.2,0,0,0,0,8.1,4.5,24,1019.6,9.9,0.1,0,0,0,10,Clear,clear-night,obs
+Sedona,Arizona,West,2023-09-14T07:00:00Z,64.3,64.3,72.64,55.3,0,0,0,0,6.9,7.8,55,1019.2,9.9,0.2,0,0,0,10,Clear,clear-night,obs
+Sedona,Arizona,West,2023-09-14T08:00:00Z,63.3,63.3,70.36,53.5,0,0,0,0,8.1,3.4,45,1019.2,9.9,0.9,0,0,0,10,Clear,clear-night,obs
+Sedona,Arizona,West,2023-09-14T09:00:00Z,62.5,62.5,72.5,53.5,0,0,0,0,8.1,7.4,34,1019.2,9.9,0,0,0,0,10,Clear,clear-night,obs
+Sedona,Arizona,West,2023-09-14T10:00:00Z,60.7,60.7,79.63,54.3,0,0,0,0,6.9,1.8,89,1019.2,9.9,94.5,0,0,0,3,Overcast,cloudy,obs
+Sedona,Arizona,West,2023-09-14T11:00:00Z,60.7,60.7,79.94,54.4,0,0,0,0,10.3,2.2,14,1019.2,9.9,93.1,0,0,0,3,Overcast,cloudy,obs
+Sedona,Arizona,West,2023-09-14T12:00:00Z,60.7,60.7,67.72,49.9,0,0,0,0,10.3,10.2,33,1019.3,9.9,68.8,0,0,0,10,Partially cloudy,partly-cloudy-night,obs
+Sedona,Arizona,West,2023-09-14T13:00:00Z,62.5,62.5,57.67,47.3,0,0,0,0,9.2,9.5,40,1019.8,9.9,27.1,0,0,0,10,Partially cloudy,partly-cloudy-night,obs
+Sedona,Arizona,West,2023-09-14T14:00:00Z,63.3,63.3,53.99,46.4,0,0,0,0,6.9,5.8,50,1020.3,9.9,50.2,10,0,0,10,Partially cloudy,partly-cloudy-day,obs
+Sedona,Arizona,West,2023-09-14T15:00:00Z,67.9,67.9,56.18,51.7,0,0,0,0,5.8,2.5,96,1020.3,9.9,0,26,0.1,0,10,Clear,clear-day,obs
+Sedona,Arizona,West,2023-09-14T16:00:00Z,70.6,70.6,56.48,54.4,0,0,0,0,5.8,2.2,64,1020.6,9.9,0.2,298,1.1,3,10,Clear,clear-day,obs
+Sedona,Arizona,West,2023-09-14T17:00:00Z,77.7,77.7,43.09,53.5,0,0,0,0,6.9,5.2,144,1020.6,9.9,0.8,616,2.2,6,10,Clear,clear-day,obs
+Sedona,Arizona,West,2023-09-14T18:00:00Z,78.7,78.7,40.5,52.7,0,0,0,0,19.7,5.3,185,1020.5,9.9,1,594,2.1,6,10,Clear,clear-day,obs
+Sedona,Arizona,West,2023-09-14T19:00:00Z,77.7,77.7,44.42,54.4,0,0,0,0,16.1,7.6,210,1020.1,9.9,50.1,463,1.7,5,10,Partially cloudy,partly-cloudy-day,obs
+Sedona,Arizona,West,2023-09-14T20:00:00Z,80.5,79.8,34.52,50,0,0,0,0,21.9,5.8,171,1019.2,9.9,0.5,857,3.1,9,10,Clear,clear-day,obs
+Sedona,Arizona,West,2023-09-14T21:00:00Z,81.3,79.9,28.32,45.4,0,0,0,0,18.3,7,188,1018.9,9.9,0.9,762,2.7,8,10,Clear,clear-day,obs
+Sedona,Arizona,West,2023-09-14T22:00:00Z,82.3,80.6,29.48,47.3,0,0,0,0,19.7,9,199,1018.1,9.9,50.5,550,2,6,10,Partially cloudy,partly-cloudy-day,obs
+Sedona,Arizona,West,2023-09-14T23:00:00Z,78.7,78.7,32.01,46.4,0,0,0,0,22.8,8.2,194,1017.9,9.9,27.2,388,1.4,4,10,Partially cloudy,partly-cloudy-day,obs
+Sedona,Arizona,West,2023-09-15T00:00:00Z,73.3,73.3,40.94,48.2,0,0,0,0,27.7,18.1,289,1018.3,9.9,68.9,125,0.5,1,10,Partially cloudy,partly-cloudy-day,obs
+Sedona,Arizona,West,2023-09-15T01:00:00Z,73.3,73.3,41.03,48.2,0,0,0,0,13.9,4.7,68,1018.3,9.9,27.2,52,0.2,1,10,Partially cloudy,partly-cloudy-day,obs
+Sedona,Arizona,West,2023-09-15T02:00:00Z,71.5,71.5,42.32,47.4,0,0,0,0,11.4,6.3,35,1018.6,9.9,50.2,8,0,0,10,Partially cloudy,partly-cloudy-night,obs
+Sedona,Arizona,West,2023-09-15T03:00:00Z,71.5,71.5,43.65,48.2,0,0,0,0,10.3,11.4,45,1019.3,9.9,70.2,0,0,0,10,Partially cloudy,partly-cloudy-night,obs
+Sedona,Arizona,West,2023-09-15T04:00:00Z,68,68,52.26,49.9,0.005,100,0,0,18.3,13.8,31,1019.9,9.9,99.1,0,0,0,10,"Rain, Overcast",rain,obs
+Sedona,Arizona,West,2023-09-15T05:00:00Z,64.3,64.3,67.99,53.5,0.006,100,0,0,25.3,19.4,40,1020.2,9.9,88.8,0,0,0,3,"Rain, Partially cloudy",rain,obs
+Sedona,Arizona,West,2023-09-15T06:00:00Z,64.3,64.3,63.72,51.7,0,0,0,0,24.2,14.9,40,1020.7,9.9,0,0,0,0,3,Clear,clear-night,obs
+Sedona,Arizona,West,2023-09-15T07:00:00Z,63.3,63.3,63.91,50.9,0,0,0,0,24.2,15.4,39,1020.1,9.9,0,0,0,0,10,Clear,clear-night,obs
+Sedona,Arizona,West,2023-09-15T08:00:00Z,64.1,64.1,59.73,49.8,0,0,0,0,10.3,10.2,39,1020.2,9.9,0,0,0,0,10,Clear,clear-night,obs
+Sedona,Arizona,West,2023-09-15T09:00:00Z,62.3,62.3,63.56,49.8,0,0,0,0,10.3,12.6,40,1020,9.9,0,0,0,0,10,Clear,clear-night,obs
+Sedona,Arizona,West,2023-09-15T10:00:00Z,60.5,60.5,67.71,49.8,0,0,0,0,10.3,12.6,30,1019.7,9.9,0,0,0,0,10,Clear,clear-night,obs
+Sedona,Arizona,West,2023-09-15T11:00:00Z,62.3,62.3,59.47,48,0,0,0,0,10.3,14.8,39,1019.7,9.9,0,0,0,0,10,Clear,clear-night,obs
+Sedona,Arizona,West,2023-09-15T12:00:00Z,62.3,62.3,59.49,48,0,0,0,0,20.8,13.7,39,1020,9.9,0,0,0,0,10,Clear,clear-night,obs
+Sedona,Arizona,West,2023-09-15T13:00:00Z,62.3,62.3,55.64,46.2,0,0,0,0,19.7,12.6,29,1020.7,9.9,0,0,0,0,10,Clear,clear-night,obs
+Sedona,Arizona,West,2023-09-15T14:00:00Z,62.3,62.3,55.63,46.3,0,0,0,0,18.3,12.6,39,1021,9.9,0,9,0,0,10,Clear,clear-day,obs
+Sedona,Arizona,West,2023-09-15T15:00:00Z,67.8,67.8,49.28,48.1,0,0,0,0,16.1,9.1,70,1021.3,9.9,0,24,0.1,0,10,Clear,clear-day,obs
+Sedona,Arizona,West,2023-09-15T16:00:00Z,71.4,71.4,46.55,49.9,0,0,0,0,8.1,3.4,120,1021.7,9.9,0,288,1,3,10,Clear,clear-day,obs
+Sedona,Arizona,West,2023-09-15T17:00:00Z,76.8,76.8,38.89,49.9,0,0,0,0,6.9,0,0,1022,9.9,0,607,2.2,6,10,Clear,clear-day,obs
+Sedona,Arizona,West,2023-09-15T18:00:00Z,80.4,79.6,32.3,48.1,0,0,0,0,8.1,5.8,130,1021.6,9.9,0.7,724,2.6,7,10,Clear,clear-day,obs
+Sedona,Arizona,West,2023-09-15T19:00:00Z,78.6,78.6,32,46.3,0,0,0,0,10.3,8,199,1021,9.9,0.7,802,2.9,8,10,Clear,clear-day,obs
+Sedona,Arizona,West,2023-09-15T20:00:00Z,80.3,79.2,26.48,42.8,0,0,0,0,10.3,5.8,189,1020.7,9.9,0.9,755,2.7,8,10,Clear,clear-day,obs
+Sedona,Arizona,West,2023-09-15T21:00:00Z,85.7,82.7,22.23,42.8,0,0,0,0,16.1,7,212,1020,9.9,0.2,703,2.5,7,10,Clear,clear-day,obs
+Sedona,Arizona,West,2023-09-15T22:00:00Z,82.2,80.1,23.25,41,0,0,0,0,16.1,4.7,291,1019.3,9.9,0.8,468,1.7,5,10,Clear,clear-day,obs
+Sedona,Arizona,West,2023-09-15T23:00:00Z,84,81.3,21.94,41,0,0,0,0,16.1,5.8,182,1019,9.9,0.8,244,0.9,2,10,Clear,clear-day,obs
+Sedona,Arizona,West,2023-09-16T00:00:00Z,82.1,80.2,24.93,42.8,0,0,0,0,16.1,4.7,251,1019.3,9.9,50.3,192,0.7,2,10,Partially cloudy,partly-cloudy-day,obs
+Sedona,Arizona,West,2023-09-16T01:00:00Z,78.6,78.6,32.05,46.3,0,0,0,0,18.3,13.8,69,1019.3,9.9,50.2,51,0.2,1,10,Partially cloudy,partly-cloudy-day,obs
+Sedona,Arizona,West,2023-09-16T02:00:00Z,71.4,71.4,40.74,46.3,0,0,0,0,20.8,13.7,39,1019.7,9.9,0.8,14,0.1,0,10,Clear,clear-night,obs
+Sedona,Arizona,West,2023-09-16T03:00:00Z,71.3,71.3,40.8,46.3,0,0,0,0,13.9,12.6,40,1020.7,9.9,0.7,0,0,0,10,Clear,clear-night,obs
+Sedona,Arizona,West,2023-09-16T04:00:00Z,71.3,71.3,35.63,42.7,0,0,0,0,18.3,12.6,40,1021,9.9,88,0,0,0,10,Partially cloudy,partly-cloudy-night,obs
+Sedona,Arizona,West,2023-09-16T05:00:00Z,71.3,71.3,35.66,42.7,0,0,0,0,13.9,14.8,29,1021,9.9,0,0,0,0,10,Clear,clear-night,obs
+Sedona,Arizona,West,2023-09-16T06:00:00Z,69.5,69.5,37.89,42.7,0,0,0,0,19.7,14.8,49,1021.3,9.9,0,0,0,0,10,Clear,clear-night,obs
+Sedona,Arizona,West,2023-09-16T07:00:00Z,69.5,69.5,37.9,42.7,0,0,0,0,26.4,17,49,1021,9.9,49.5,0,0,0,10,Partially cloudy,partly-cloudy-night,obs
+Sedona,Arizona,West,2023-09-16T08:00:00Z,69.5,69.5,40.57,44.5,0,0,0,0,20.8,13.7,40,1021,9.9,0,0,0,0,10,Clear,clear-night,obs
+Sedona,Arizona,West,2023-09-16T09:00:00Z,69.5,69.5,37.91,42.7,0,0,0,0,20.8,14.8,39,1020.7,9.9,87.1,0,0,0,10,Partially cloudy,partly-cloudy-night,obs
+Sedona,Arizona,West,2023-09-16T10:00:00Z,67.7,67.7,43.13,44.5,0,0,0,0,18.3,11.3,49,1021,9.9,0,0,0,0,10,Clear,clear-night,obs
+Sedona,Arizona,West,2023-09-16T11:00:00Z,67.7,67.7,43.14,44.5,0,0,0,0,17.2,13.7,29,1021,9.9,0,0,0,0,10,Clear,clear-night,obs
+Sedona,Arizona,West,2023-09-16T12:00:00Z,67.7,67.7,40.31,42.7,0,0,0,0,18.3,13.7,29,1021.3,9.9,0,0,0,0,10,Clear,clear-night,obs
+Sedona,Arizona,West,2023-09-16T13:00:00Z,67.7,67.7,40.3,42.7,0,0,0,0,16.1,12.6,39,1021.7,9.9,0,0,0,0,10,Clear,clear-night,obs
+Sedona,Arizona,West,2023-09-16T14:00:00Z,67.7,67.7,40.3,42.7,0,0,0,0,17.2,11.3,29,1022.4,9.9,0,8,0,0,10,Clear,clear-day,obs
+Sedona,Arizona,West,2023-09-16T15:00:00Z,71.4,71.4,35.56,42.7,0,0,0,0,16.1,8,30,1022.7,9.9,0,21,0.1,0,10,Clear,clear-day,obs
+Sedona,Arizona,West,2023-09-16T16:00:00Z,75,75,33.69,44.5,0,0,0,0,11.4,0.1,0,1023,9.9,0,290,1,3,10,Clear,clear-day,obs
+Sedona,Arizona,West,2023-09-16T17:00:00Z,80.4,79.3,28.2,44.5,0,0,0,0,10.3,5.8,149,1023,9.9,0,622,2.2,6,10,Clear,clear-day,obs
+Sedona,Arizona,West,2023-09-16T18:00:00Z,82.2,80.1,21.63,39.1,0,0,0,0,10.3,3.4,220,1023,9.9,0,784,2.8,8,10,Clear,clear-day,obs
+Sedona,Arizona,West,2023-09-16T19:00:00Z,87.6,83.9,15.83,35.6,0,0,0,0,19.7,14.9,159,1022.4,9.9,41.2,697,2.5,7,10,Partially cloudy,partly-cloudy-day,obs
+Sedona,Arizona,West,2023-09-16T20:00:00Z,88.1,84.3,14.05,33,0,1,0,0,10.3,8.1,180,1013,10.1,3,905,3.3,9,10,Clear,clear-day,fcst
+Sedona,Arizona,West,2023-09-16T21:00:00Z,89,85,13.08,31.9,0,1,0,0,11.4,8.1,180,1012,10.1,5,839,3,8,10,Clear,clear-day,fcst
+Sedona,Arizona,West,2023-09-16T22:00:00Z,88.1,84.3,13.45,31.9,0,1,0,0,11.4,9.2,190,1010,10.1,8,717,2.6,7,10,Clear,clear-day,fcst
+Sedona,Arizona,West,2023-09-16T23:00:00Z,88.1,84.3,13.45,31.9,0,1,0,0,12.8,8.1,190,1010,10.1,6,554,2,6,10,Clear,clear-day,fcst
+Sedona,Arizona,West,2023-09-17T00:00:00Z,85,81.9,13.69,29.9,0,1,0,0,12.8,10.3,200,1009,10.1,8,358,1.3,4,10,Clear,clear-day,fcst
+Sedona,Arizona,West,2023-09-17T01:00:00Z,81.1,79.1,16.25,31,0,1,0,0,12.8,8.1,170,1010,10.1,13,81,0.3,1,10,Clear,clear-day,fcst
+Sedona,Arizona,West,2023-09-17T02:00:00Z,74.9,74.9,20.63,31.9,0,0,0,0,11.4,8.1,110,1011,10.1,16,15,0.1,0,10,Clear,clear-night,fcst
+Sedona,Arizona,West,2023-09-17T03:00:00Z,72.1,72.1,22.72,31.9,0,0,0,0,10.3,6.9,70,1011,10.1,19,10,0,0,10,Clear,clear-night,fcst
+Sedona,Arizona,West,2023-09-17T04:00:00Z,71,71,24.61,33,0,0,0,0,13.9,9.2,60,1012,10.1,13,8,0,0,10,Clear,clear-night,fcst
+Sedona,Arizona,West,2023-09-17T05:00:00Z,67.9,67.9,30.87,36,0,0,0,0,16.1,11.4,50,1012,10.1,26,6,0,0,10,Partially cloudy,partly-cloudy-night,fcst
+Sedona,Arizona,West,2023-09-17T06:00:00Z,67.9,67.9,29.58,35,0,0,0,0,18.3,13.9,50,1011,10.1,22,5,0,0,10,Partially cloudy,partly-cloudy-night,fcst
+Sedona,Arizona,West,2023-09-17T07:00:00Z,67,67,30.51,35,0,0,0,0,19.5,13.9,50,1012,10.1,25,0,0,0,10,Partially cloudy,partly-cloudy-night,fcst
+Sedona,Arizona,West,2023-09-17T08:00:00Z,65.9,65.9,31.67,35,0,0,0,0,18.3,13.9,50,1012,10.1,29,0,0,0,10,Partially cloudy,partly-cloudy-night,fcst
+Sedona,Arizona,West,2023-09-17T09:00:00Z,65.9,65.9,31.67,35,0,0,0,0,18.3,12.8,50,1012,10.1,33,0,0,0,10,Partially cloudy,partly-cloudy-night,fcst
+Sedona,Arizona,West,2023-09-17T10:00:00Z,65,65,30.19,33,0,1,0,0,18.3,12.8,50,1012,10.1,31,0,0,0,10,Partially cloudy,partly-cloudy-night,fcst
+Sedona,Arizona,West,2023-09-17T11:00:00Z,65,65,30.19,33,0,2,0,0,16.1,11.4,50,1012,10.1,30,0,0,0,10,Partially cloudy,partly-cloudy-night,fcst
+Sedona,Arizona,West,2023-09-17T12:00:00Z,63.1,63.1,32.36,33,0,5,0,0,15,10.3,60,1012,10.1,29,0,0,0,10,Partially cloudy,partly-cloudy-night,fcst
+Sedona,Arizona,West,2023-09-17T13:00:00Z,62,62,33.61,33,0,9,0,0,12.8,9.2,60,1013,10.1,23,0,0,0,10,Partially cloudy,partly-cloudy-night,fcst
+Sedona,Arizona,West,2023-09-17T14:00:00Z,63.1,63.1,40.93,38.9,0,9,0,0,11.4,6.9,80,1013,10.1,17,89,0.3,1,10,Clear,clear-day,fcst
+Sedona,Arizona,West,2023-09-17T15:00:00Z,69,69,40.47,44,0,9,0,0,10.3,5.8,110,1013,10.1,11,267,1,3,10,Clear,clear-day,fcst
+Sedona,Arizona,West,2023-09-17T16:00:00Z,76,76,33.27,45,0,9,0,0,10.3,6.9,130,1013,10.1,11,444,1.6,4,10,Clear,clear-day,fcst
+Sedona,Arizona,West,2023-09-17T17:00:00Z,79.1,79.1,32.41,47,0,10,0,0,11.4,8.1,160,1014,10.1,12,596,2.1,6,10,Clear,clear-day,fcst
+Sedona,Arizona,West,2023-09-17T18:00:00Z,83,81.1,28.49,47,0,16,0,0,12.8,9.2,180,1013,10.1,27,703,2.5,7,10,Partially cloudy,partly-cloudy-day,fcst
+Sedona,Arizona,West,2023-09-17T19:00:00Z,85.9,83.1,24.93,45.9,0,16,0,0,13.9,10.3,180,1013,10.1,27,877,3.2,9,10,Partially cloudy,partly-cloudy-day,fcst
+Sedona,Arizona,West,2023-09-17T20:00:00Z,88.1,84.7,21.59,44,0,16,0,0,16.1,11.4,190,1012,10.1,27,856,3.1,9,10,Partially cloudy,partly-cloudy-day,fcst
+Sedona,Arizona,West,2023-09-17T21:00:00Z,88.1,84.5,19.19,40.9,0,16,0,0,17.2,12.8,190,1012,10.1,27,804,2.9,8,10,Partially cloudy,partly-cloudy-day,fcst
+Sedona,Arizona,West,2023-09-17T22:00:00Z,87,83.5,17.76,38,0,16,0,0,16.1,12.8,190,1011,10.1,27,704,2.5,7,10,Partially cloudy,partly-cloudy-day,fcst
+Sedona,Arizona,West,2023-09-17T23:00:00Z,87,83.5,16.42,36,0,16,0,0,16.1,12.8,190,1011,10.1,27,565,2,6,10,Partially cloudy,partly-cloudy-day,fcst
+Sedona,Arizona,West,2023-09-18T00:00:00Z,83,80.5,17.87,35,0,9,0,0,16.1,11.4,190,1010,10.1,15,366,1.3,4,10,Clear,clear-day,fcst
+Sedona,Arizona,West,2023-09-18T01:00:00Z,79.1,79.1,20.33,35,0,9,0,0,13.9,9.2,180,1011,10.1,12,84,0.3,1,10,Clear,clear-day,fcst
+Sedona,Arizona,West,2023-09-18T02:00:00Z,76,76,24.32,36.9,0,9,0,0,11.4,8.1,160,1011,10.1,10,22,0.1,0,10,Clear,clear-night,fcst
+Sedona,Arizona,West,2023-09-18T03:00:00Z,69,69,30.82,36.9,0,9,0,0,9.2,5.8,140,1012,10.1,9,15,0.1,0,10,Clear,clear-night,fcst
+Sedona,Arizona,West,2023-09-18T04:00:00Z,71,71,28.81,36.9,0,9,0,0,9.2,6.9,110,1012,10.1,7,12,0,0,10,Clear,clear-night,fcst
+Sedona,Arizona,West,2023-09-18T05:00:00Z,71,71,28.81,36.9,0,9,0,0,10.3,8.1,90,1012,10.1,6,10,0,0,10,Clear,clear-night,fcst
+Sedona,Arizona,West,2023-09-18T06:00:00Z,65.9,65.9,34.25,36.9,0,6,0,0,11.4,8.1,60,1013,10.1,5,7,0,0,10,Clear,clear-night,fcst
+Sedona,Arizona,West,2023-09-18T07:00:00Z,65,65,38.2,38.9,0,6,0,0,11.9,8.5,60,1012,10.1,5.3,5,0,0,10,Clear,clear-night,fcst
+Sedona,Arizona,West,2023-09-18T08:00:00Z,63.9,63.9,43.14,41.1,0,6,0,0,12.3,8.7,60,1012,10.1,5.7,2,0,0,10,Clear,clear-night,fcst
+Sedona,Arizona,West,2023-09-18T09:00:00Z,63.1,63.1,48.04,43.1,0,6,0,0,12.8,9.2,60,1012,10.1,6,0,0,0,10,Clear,clear-night,fcst
+Sedona,Arizona,West,2023-09-18T10:00:00Z,62.7,62.7,47.99,42.7,0,2,0,0,12.3,8.7,60,1013,10.1,5.3,0,0,0,10,Clear,clear-night,fcst
+Sedona,Arizona,West,2023-09-18T11:00:00Z,62.3,62.3,47.93,42.3,0,2,0,0,11.9,8.5,60,1012,10.1,4.7,0,0,0,10,Clear,clear-night,fcst
+Sedona,Arizona,West,2023-09-18T12:00:00Z,62,62,47.88,42,0,2,0,0,11.4,8.1,60,1014,10.1,4,0,0,0,10,Clear,clear-night,fcst
+Sedona,Arizona,West,2023-09-18T13:00:00Z,63.9,63.9,47.52,43.6,0,2,0,0,10.3,7.4,86.7,1015,10.1,4,70,0.3,0,10,Clear,clear-night,fcst
+Sedona,Arizona,West,2023-09-18T14:00:00Z,65.9,65.9,47.5,45.4,0,2,0,0,9.2,6.5,113.3,1015,10.1,4,141,0.5,1,10,Clear,clear-day,fcst
+Sedona,Arizona,West,2023-09-18T15:00:00Z,67.9,67.9,47.16,47,0,2,0,0,8.1,5.8,140,1015,10.1,4,211,0.8,2,10,Clear,clear-day,fcst
+Sedona,Arizona,West,2023-09-18T16:00:00Z,72.6,72.6,40.21,47,0,4,0,0,11.2,8.1,160,1015,10.1,3.7,338,1.2,3,10,Clear,clear-day,fcst
+Sedona,Arizona,West,2023-09-18T17:00:00Z,77.3,77.3,34.39,47,0,4,0,0,14.1,10.5,180,1015,10.1,3.3,465,1.7,5,10,Clear,clear-day,fcst
+Sedona,Arizona,West,2023-09-18T18:00:00Z,81.9,80.4,29.5,47,0,4,0,0,17.2,12.8,200,1014,10.1,3,592,2.1,6,10,Clear,clear-day,fcst
+Sedona,Arizona,West,2023-09-18T19:00:00Z,83.6,81.3,25.97,45,0,4,0,0,18.8,13.4,203.3,1014,10.1,3.3,656,2.4,7,10,Clear,clear-day,fcst
+Sedona,Arizona,West,2023-09-18T20:00:00Z,85.4,82.5,22.58,42.9,0,4,0,0,20.4,14.3,206.7,1013,10.1,3.7,720,2.6,7,10,Clear,clear-day,fcst
+Sedona,Arizona,West,2023-09-18T21:00:00Z,87,83.6,19.86,40.9,0,4,0,0,21.9,15,210,1012,10.1,4,784,2.8,8,10,Clear,clear-day,fcst
+Sedona,Arizona,West,2023-09-18T22:00:00Z,85.4,82.3,20.2,40,0,2,0,0,22.4,15.4,213.3,1012,10.1,4.3,687,2.5,7,10,Clear,clear-day,fcst
+Sedona,Arizona,West,2023-09-18T23:00:00Z,83.6,81,20.52,38.9,0,2,0,0,22.6,15.7,216.7,1011,10.1,4.7,591,2.1,6,10,Clear,clear-day,fcst
+Sedona,Arizona,West,2023-09-19T00:00:00Z,81.9,79.9,20.88,38,0,2,0,0,23,16.1,220,1013,10.1,5,494,1.8,5,10,Clear,clear-day,fcst
+Sedona,Arizona,West,2023-09-19T01:00:00Z,76.6,76.6,21.93,34.8,0,2,0,0,17.9,12.3,200,1014,10.1,12.3,348,1.3,3,10,Clear,clear-day,fcst
+Sedona,Arizona,West,2023-09-19T02:00:00Z,73.5,73.5,24.64,35.1,0,2,0,0,14.8,10.1,190,1015,10.1,13.7,203,0.7,0,10,Clear,clear-night,fcst
+Sedona,Arizona,West,2023-09-19T03:00:00Z,70.2,70.2,27.89,35.5,0,2,0,0,11.6,8.1,180,1016,10.1,15,57,0.2,0,10,Clear,clear-night,fcst
+Sedona,Arizona,West,2023-09-19T04:00:00Z,69,69,29.12,35.5,0,2,0,0,10.1,7.2,146.7,1016,10.1,15.3,47,0.2,0,10,Clear,clear-night,fcst
+Sedona,Arizona,West,2023-09-19T05:00:00Z,67.7,67.7,30.41,35.5,0,2,0,0,8.7,6.3,113.3,1016,10.1,15.7,38,0.1,0,10,Clear,clear-night,fcst
+Sedona,Arizona,West,2023-09-19T06:00:00Z,66.5,66.5,31.76,35.5,0,2,0,0,7.2,5.4,80,1016,10.1,16,28,0.1,0,10,Clear,clear-night,fcst
