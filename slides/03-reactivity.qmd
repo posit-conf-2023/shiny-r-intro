@@ -127,9 +127,10 @@ flowchart LR
 
 ## Your turn - Exercise 03
 
-Starting with the code  in `exercises/ex03.R` (base on `demo02.R`'s code) add a `tableOutput()` to the app's `mainPanel()`.
+Start with the code  in `exercises/ex03.R` (based on `demo02.R`'s code) \
+Add a `tableOutput()` to the app's `mainPanel()`.
 
-Once you have done that you should then add logic to the `server` function to render a table that shows the daily min and max temperature for each day of the week.
+Once you have done that, add logic to the `server` function to render a table that shows the daily min and max temperature for each day of the week.
 
 - You will need to use `renderTable()`
 - `lubridate::wday()` will be useful along with `group_by()` & `summarize()`

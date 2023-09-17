@@ -186,7 +186,9 @@ From [Mastering Shiny](https://mastering-shiny.org/action-layout.html#multi-row)
 
 ## Your turn - Exercise 02
 
-We've just seen a number of alternative input widgets, starting from the code in `exercises/ex02.R` try changing the `radioButton()` input to something else.
+We've just seen a number of alternative input widgets.
+
+Starting from the code in `exercises/ex02.R` try changing the `radioButton()` input to something else.
 
 What happens if you use an input capable of selecting multiple values 
 
