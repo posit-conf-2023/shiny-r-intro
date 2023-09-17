@@ -1,6 +1,7 @@
 ---
 title: "Getting Started with Shiny<br/>Welcome"
-author: "Colin Rundel"
+author: Colin Rundel
+insitute: pos.it/shiny-conf23
 format: 
   revealjs:
     logo: images/shiny.png
@@ -21,6 +22,17 @@ title-slide-attributes:
 #| include: false
 library(shiny)
 ```
+
+## Getting Started with Shiny {.center}
+
+### Welcome!
+
+Wifi: **Posit Conf 2023** \
+Password: **conf2023**
+
+::: large
+pos.it/shiny-conf23
+:::
 
 # Welcome
 
