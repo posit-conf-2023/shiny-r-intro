@@ -145,11 +145,9 @@ For deployment generally apps will be organized as a single folder that contains
 
 ## Your turn - Exercise 08
 
-Now we will publish one of the demo apps to shinyapps.io (you will need to have completed Exercise 8)
+Now we will publish one of the demo apps to shinyapps.io (you will need to have completed Exercise 7)
 
-1. Package up `ex08.R` as an app in `exercises/ex08app` (you will need to create this folder)
-    - Make sure to copy the data (`weather.csv`) into this folder
-    - Adjust any paths if necessary
+1. Package up `ex08.R` as an app in `exercises/ex08app` (you will need to create this folder) - make sure to copy the data (`weather.csv`) into this folder and adjust any paths if necessary
   
 2. Open the script file in `exercises/ex08app` and click the Publish Document button in the upper right of the pane (look for the ![](images/publish_button.png) icon)
 
