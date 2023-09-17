@@ -49,6 +49,27 @@ library(shiny)
 :::
 :::
 
+## Instructor
+
+::: columns
+::: {.column width="40%"}
+![](images/garrick-social-profile.jpeg){fig-align="center" width="77%"}
+:::
+
+::: {.column width="10%"}
+:::
+
+::: {.column width="50%"}
+### Garrick Aden-Buie
+
+Software Engineer \
+Data Science Educator \
+Shiny at Posit
+
+[garrickadenbuie.com](https://garrickadenbuie.com)
+:::
+:::
+
 ## Teaching Assistants
 
 - Garrick Aden-Buie (Posit)
@@ -67,10 +88,9 @@ Some suggested topics,
 
 * Why you are interested in learning Shiny
 
-
 ```{r}
 #| echo: false
-countdown::countdown(5)
+countdown::countdown(3)
 ```
 
 
@@ -173,9 +193,10 @@ I'm done
 
 ## Other communication (Discord)
 
-You should have received an email with an invitation and instructions for joining the conference's discord server.
+Go [posit.co/conference](https://posit.co/conference), click **Login**.
+Once you've logged in there's large image to connect you to the conference Discord server.
 
-This workshop has a private channel under Workshops,
+This workshop has a private channel under Workshops.
 
 ::: {.large style="text-align: center"}
 #getting-started-with-shiny-r
@@ -185,20 +206,15 @@ This workshop has a private channel under Workshops,
 This is a great place to ask questions, post resources, memes, or most anything else before, during, and after the workshop.
 
 
-
 # Computational Environment
 
 ## RStudio Cloud
 
 You can use the following link to join the workshops RStudio cloud space,
 
-::: {style="text-align: center;"}
+::: {.large style="text-align: center;"}
 [bit.ly/conf2023_shiny_cloud](https://bit.ly/conf2023_shiny_cloud)
 :::
-
-
-
-<br/>
 
 Once you have joined you can then select the `get-started-shiny` assignment, 
 
