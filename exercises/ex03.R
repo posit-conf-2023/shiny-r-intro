@@ -13,7 +13,10 @@ shinyApp(
         ),
         checkboxInput("forecast", "Highlight forecasted data", value = FALSE)
       ),
-      mainPanel( plotOutput("plot") )
+      mainPanel(
+        plotOutput("plot"),
+        tableOutput("table")
+      )
     )
   ),
   server = function(input, output, session) {
@@ -29,6 +32,13 @@ shinyApp(
         ggplot(d_city, aes(x=time, y=temp), color=1) +
           geom_line()
       }
+    })
+    
+    output$table <- renderTable({
+      d %>%
+        mutate(weekday = wday(time, label = TRUE)) %>% 
+        group_by(city, weekday) %>%
+        summarize(min_temp = min(temp), max_temp = max(temp))
     })
   }
 )

@@ -33,7 +33,7 @@ shinyApp(
   server = function(input, output, session) {
     
     d_city = reactive({
-      req(input$city)
+      # req(input$city)
       d |>
         filter(city %in% input$city)
     })

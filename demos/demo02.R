@@ -7,8 +7,8 @@ shinyApp(
     titlePanel("Temperature Forecasts"),
     sidebarLayout(
       sidebarPanel(
-        radioButtons(
-          "city", "Select a city",
+        checkboxGroupInput(
+          inputId = "city", "Select a city",
           choices = c("Chicago", "Durham", "Sedona", "New York", "Los Angeles")
         ),
         checkboxInput("forecast", "Highlight forecasted data", value = FALSE)
@@ -22,7 +22,7 @@ shinyApp(
       d_city = filter(d, city %in% input$city)
       
       if (input$forecast) {
-        ggplot(d_city, aes(x=time, y=temp, color=source)) +
+        ggplot(d_city, aes(x=time, y=temp, color=source, color = city)) +
           geom_line() +
           scale_color_manual(values = c("red","black"))
       } else {
