@@ -1,6 +1,7 @@
 library(tidyverse)
 library(shiny)
 d = readr::read_csv(here::here("data/weather.csv"))
+d_other_thing <- 
 
 shinyApp(
   ui = fluidPage(
@@ -9,7 +10,7 @@ shinyApp(
       sidebarPanel(
         radioButtons(
           "city", "Select a city",
-          choices = c("Chicago", "Durham", "Sedona", "New York", "Los Angeles")
+          choices = c("Chicago", "Durham", "Sedona", "New York", "Los Angeles", "San Antonio")
         ) 
       ),
       mainPanel( 

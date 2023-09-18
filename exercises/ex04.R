@@ -2,10 +2,6 @@ library(tidyverse)
 library(shiny)
 d = readr::read_csv(here::here("data/weather.csv"))
 
-d_vars = d |>
-  select(where(is.numeric)) |>
-  names()
-
 shinyApp(
   ui = fluidPage(
     titlePanel("Weather Forecasts"),
@@ -17,7 +13,8 @@ shinyApp(
         ),
         selectInput(
           "var", "Select a variable",
-          choices = d_vars, selected = "temp"
+          choices = NULL
+          # choices = d_vars, selected = "temp"
         )
       ),
       mainPanel( 
@@ -33,7 +30,20 @@ shinyApp(
         filter(city %in% input$city)
     })
     
+    observe({
+      updateSelectInput(inputId = "var", choices = d_vars())
+    })
+    
+    d_vars = reactive({
+      d_city() |>
+        select(where(is.numeric)) |>
+        select(where(function(x) var(x) != 0)) %>%
+        names()
+    })
+    
     output$plot = renderPlot({
+      req(input$var)
+      
       d_city() |>
         ggplot(aes(x=time, y=.data[[input$var]], color=city)) +
         ggtitle(input$var) +
@@ -41,6 +51,8 @@ shinyApp(
     })
     
     output$minmax = renderTable({
+      req(input$var)
+      
       d_city() |>
         mutate(
           day = lubridate::wday(time, label = TRUE, abbr = FALSE),

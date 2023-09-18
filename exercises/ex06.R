@@ -12,7 +12,15 @@ thematic::thematic_shiny(bg = "auto", fg = "auto", font = "auto")
 
 shinyApp(
   ui = fluidPage(
-    theme = bslib::bs_theme(),
+    theme = bslib::bs_theme(
+      bootswatch = "minty",
+      base_font = font_google("Quicksand"),
+      fg = "purple",
+      bg = "white",
+      primary = "steelblue",
+      heading_font = font_google("Bitter"),
+      "border-width" = "4px"
+    ),
     titlePanel("Weather Forecasts"),
     sidebarLayout(
       sidebarPanel(

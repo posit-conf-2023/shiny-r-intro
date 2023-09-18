@@ -36,6 +36,12 @@ shinyApp(
     })
     
     output$minmax = renderTable({
+      minmax_names <- c("min", "max")
+      names(minmax_names) <- c(
+        paste("Min", input$var),
+        paste("Max", input$var)
+      )
+      
       d |>
         filter(city %in% input$city) |>
         mutate(
@@ -47,7 +53,8 @@ shinyApp(
           `min` = min(.data[[input$var]]),
           `max` = max(.data[[input$var]]),
           .groups = "drop"
-        )
+        ) %>%
+        rename(!!!minmax_names)
     })
   }
 )
